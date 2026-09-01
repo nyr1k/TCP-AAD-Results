@@ -1,0 +1,446 @@
+================================================================================
+Test: rate67_bwnolim_delaynodelay | Kernel: default | 2026-07-01T11:42:41+05:00
+Server kernel: 6.19.0-tcpaad+
+rate=67  bw=nolim  delay=nodelay  duration=90s  iterations=5
+================================================================================
+[0;34m[INFO][0m 11:42:41 - [rate67_bwnolim_delaynodelay] Iteration 1/5
+--- Iteration 1 | 2026-07-01T11:42:41+05:00 ---
+
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     5.6       5.6     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    10.6      10.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    14.9      14.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    18.8      18.8     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    25.4      25.4     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    30.7      30.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    33.0      33.0     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    35.1      35.1     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.2       6.2     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    11.6      11.6     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    16.3      16.3     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    20.4      20.4     100.0       5     3 3           163   163      
+HT20  SGI  1          MCS4    68     222    27.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    32.8       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    35.1       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    37.3       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    10.9      10.9     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    19.4      19.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    26.0      26.0     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    31.4      31.4     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    39.6      39.6     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    45.6      45.6     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    48.0      48.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71    50.2      50.2     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    12.0      12.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    21.0      21.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    27.9      27.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    33.5      33.5     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    41.8      41.8     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    47.8      47.8     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71    50.1      50.1     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64    52.2      52.2     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 2954788      lookaround 9
+Average # of aggregated frames per A-MPDU: 1.0
+================================================================================
+[0;34m[INFO][0m 11:42:41 -   Running iperf3 for 90s...
+[0;32m[ OK ][0m 11:44:11 -   iperf3 complete
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     6.0       6.0     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    11.9      11.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    17.7      17.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    23.5      23.5     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    34.6      34.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    45.3      45.3     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    50.6      50.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    55.8      55.8     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.6       6.6     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    13.2      13.2     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    19.6      19.6     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    26.0      26.0      93.0       2   121 121      183750   193579   
+HT20  SGI  1          MCS4    68     222    38.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    50.0       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    55.7       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    61.4       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    12.4      12.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    24.3      24.3     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    35.8      35.8     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    46.9      46.9     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    68.0      68.0     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    87.8      87.8     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    97.0      97.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71   106.1     106.1     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    13.7      13.7     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    26.9      26.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    39.6      39.6     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    51.7      51.7     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    74.7      74.7     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    96.0      96.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71   106.0     106.0     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64   115.8     115.8     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3138428      lookaround 9
+Average # of aggregated frames per A-MPDU: 8.9
+[0;34m[INFO][0m 11:44:14 -   ACK count: 28393
+
+  ACK count   : 28393
+
+[0;34m[INFO][0m 11:44:16 - [rate67_bwnolim_delaynodelay] Iteration 2/5
+--- Iteration 2 | 2026-07-01T11:44:17+05:00 ---
+
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     5.6       5.6     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    10.6      10.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    14.9      14.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    18.8      18.8     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    25.4      25.4     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    30.7      30.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    33.0      33.0     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    35.1      35.1     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.2       6.2     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    11.6      11.6     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    16.3      16.3     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    20.4      20.4     100.0       5     5 5        183844   193673   
+HT20  SGI  1          MCS4    68     222    27.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    32.8       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    35.1       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    37.3       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    10.9      10.9     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    19.4      19.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    26.0      26.0     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    31.4      31.4     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    39.6      39.6     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    45.6      45.6     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    48.0      48.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71    50.2      50.2     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    12.0      12.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    21.0      21.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    27.9      27.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    33.5      33.5     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    41.8      41.8     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    47.8      47.8     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71    50.1      50.1     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64    52.2      52.2     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3138477      lookaround 9
+Average # of aggregated frames per A-MPDU: 1.5
+================================================================================
+[0;34m[INFO][0m 11:44:17 -   Running iperf3 for 90s...
+[0;32m[ OK ][0m 11:45:47 -   iperf3 complete
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     6.0       6.0     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    11.9      11.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    17.7      17.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    23.5      23.5     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    34.6      34.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    45.3      45.3     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    50.6      50.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    55.8      55.8     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.6       6.6     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    13.2      13.2     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    19.6      19.6     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    26.0      25.4      87.9       2   114 118      367190   386859   
+HT20  SGI  1          MCS4    68     222    38.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    50.0       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    55.7       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    61.4       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    12.4      12.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    24.3      24.3     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    35.8      35.8     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    46.9      46.9     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    68.0      68.0     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    87.8      87.8     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    97.0      97.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71   106.1     106.1     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    13.7      13.7     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    26.9      26.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    39.6      39.6     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    51.7      51.7     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    74.7      74.7     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    96.0      96.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71   106.0     106.0     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64   115.8     115.8     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3321845      lookaround 9
+Average # of aggregated frames per A-MPDU: 8.4
+[0;34m[INFO][0m 11:45:50 -   ACK count: 27069
+
+  ACK count   : 27069
+
+[0;34m[INFO][0m 11:45:52 - [rate67_bwnolim_delaynodelay] Iteration 3/5
+--- Iteration 3 | 2026-07-01T11:45:53+05:00 ---
+
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     5.6       5.6     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    10.6      10.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    14.9      14.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    18.8      18.8     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    25.4      25.4     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    30.7      30.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    33.0      33.0     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    35.1      35.1     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.2       6.2     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    11.6      11.6     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    16.3      16.3     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    20.4      20.4     100.0       5     5 5        367261   386930   
+HT20  SGI  1          MCS4    68     222    27.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    32.8       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    35.1       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    37.3       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    10.9      10.9     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    19.4      19.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    26.0      26.0     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    31.4      31.4     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    39.6      39.6     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    45.6      45.6     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    48.0      48.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71    50.2      50.2     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    12.0      12.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    21.0      21.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    27.9      27.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    33.5      33.5     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    41.8      41.8     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    47.8      47.8     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71    50.1      50.1     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64    52.2      52.2     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3321894      lookaround 9
+Average # of aggregated frames per A-MPDU: 1.4
+================================================================================
+[0;34m[INFO][0m 11:45:53 -   Running iperf3 for 90s...
+[0;32m[ OK ][0m 11:47:23 -   iperf3 complete
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     5.9       5.9     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    11.7      11.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    17.3      17.3     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    22.7      22.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    32.9      32.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    42.5      42.5     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    47.0      47.0     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    51.4      51.4     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.6       6.6     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    13.0      13.0     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    19.1      19.1     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    25.0      25.0      91.0       3     2 2        551194   580644   
+HT20  SGI  1          MCS4    68     222    36.1       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    46.5       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    51.4       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    56.2       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    12.1      12.1     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    23.5      23.5     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    34.0      34.0     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    43.8      43.8     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    61.7      61.7     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    77.5      77.5     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    84.6      84.6     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71    91.5      91.5     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    13.4      13.4     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    25.9      25.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    37.4      37.4     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    48.0      48.0     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    67.1      67.1     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    83.9      83.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71    91.4      91.4     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64    98.7      98.7     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3505821      lookaround 9
+Average # of aggregated frames per A-MPDU: 4.8
+[0;34m[INFO][0m 11:47:26 -   ACK count: 26638
+
+  ACK count   : 26638
+
+[0;34m[INFO][0m 11:47:28 - [rate67_bwnolim_delaynodelay] Iteration 4/5
+--- Iteration 4 | 2026-07-01T11:47:29+05:00 ---
+
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     5.6       5.6     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    10.6      10.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    14.9      14.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    18.8      18.8     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    25.4      25.4     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    30.7      30.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    33.0      33.0     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    35.1      35.1     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.2       6.2     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    11.6      11.6     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    16.3      16.3     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    20.4      20.4     100.0       5     5 5        551236   580686   
+HT20  SGI  1          MCS4    68     222    27.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    32.8       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    35.1       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    37.3       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    10.9      10.9     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    19.4      19.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    26.0      26.0     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    31.4      31.4     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    39.6      39.6     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    45.6      45.6     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    48.0      48.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71    50.2      50.2     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    12.0      12.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    21.0      21.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    27.9      27.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    33.5      33.5     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    41.8      41.8     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    47.8      47.8     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71    50.1      50.1     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64    52.2      52.2     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3505870      lookaround 9
+Average # of aggregated frames per A-MPDU: 1.2
+================================================================================
+[0;34m[INFO][0m 11:47:29 -   Running iperf3 for 90s...
+[0;32m[ OK ][0m 11:48:59 -   iperf3 complete
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     6.0       6.0     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    11.9      11.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    17.7      17.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    23.5      23.5     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    34.6      34.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    45.3      45.3     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    50.6      50.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    55.8      55.8     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.6       6.6     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    13.2      13.2     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    19.6      19.6     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    26.0      26.0      93.3       2   112 121      734425   774109   
+HT20  SGI  1          MCS4    68     222    38.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    50.0       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    55.7       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    61.4       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    12.4      12.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    24.3      24.3     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    35.8      35.8     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    46.9      46.9     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    68.0      68.0     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    87.8      87.8     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    97.0      97.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71   106.1     106.1     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    13.7      13.7     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    26.9      26.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    39.6      39.6     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    51.7      51.7     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    74.7      74.7     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    96.0      96.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71   106.0     106.0     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64   115.8     115.8     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3689132      lookaround 9
+Average # of aggregated frames per A-MPDU: 8.6
+[0;34m[INFO][0m 11:49:02 -   ACK count: 26658
+
+  ACK count   : 26658
+
+[0;34m[INFO][0m 11:49:04 - [rate67_bwnolim_delaynodelay] Iteration 5/5
+--- Iteration 5 | 2026-07-01T11:49:05+05:00 ---
+
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     5.6       5.6     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    10.6      10.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    14.9      14.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    18.8      18.8     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    25.4      25.4     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    30.7      30.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    33.0      33.0     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    35.1      35.1     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.2       6.2     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    11.6      11.6     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    16.3      16.3     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    20.4      20.4     100.0       5     5 5        734543   774227   
+HT20  SGI  1          MCS4    68     222    27.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    32.8       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    35.1       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    37.3       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    10.9      10.9     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    19.4      19.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    26.0      26.0     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    31.4      31.4     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    39.6      39.6     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    45.6      45.6     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    48.0      48.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71    50.2      50.2     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    12.0      12.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    21.0      21.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    27.9      27.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    33.5      33.5     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    41.8      41.8     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    47.8      47.8     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71    50.1      50.1     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64    52.2      52.2     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3689179      lookaround 9
+Average # of aggregated frames per A-MPDU: 1.5
+================================================================================
+[0;34m[INFO][0m 11:49:05 -   Running iperf3 for 90s...
+[0;32m[ OK ][0m 11:50:35 -   iperf3 complete
+RC stats:
+
+              best    ____________rate__________    ____statistics___    _____last____    ______sum-of________
+mode guard #  rate   [name   idx airtime  max_tp]  [avg(tp) avg(prob)]  [retry|suc|att]  [#success | #attempts]
+HT20  LGI  1       S  MCS0     0    1477     6.0       6.0     100.0       1     0 0             0   0        
+HT20  LGI  1          MCS1     1     738    11.9      11.9     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS2     2     492    17.7      17.7     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS3     3     369    23.5      23.5     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS4     4     246    34.6      34.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS5     5     185    45.3      45.3     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS6     6     164    50.6      50.6     100.0       0     0 0             0   0        
+HT20  LGI  1          MCS7     7     148    55.8      55.8     100.0       0     0 0             1   1        
+HT20  SGI  1          MCS0    64    1329     6.6       6.6     100.0       3     0 0             4   4        
+HT20  SGI  1          MCS1    65     665    13.2      13.2     100.0       0     0 0             0   0        
+HT20  SGI  1          MCS2    66     443    19.6      19.6     100.0       0     0 0             0   0        
+HT20  SGI  1  ABCDP   MCS3    67     332    26.0      26.0      96.4       2   122 122      917838   967635   
+HT20  SGI  1          MCS4    68     222    38.2       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS5    69     166    50.0       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS6    70     148    55.7       0.0       0.0       0     0 0             0   0        
+HT20  SGI  1          MCS7    71     133    61.4       0.0       0.0       0     0 0             0   0        
+HT40  LGI  1          MCS0   128     711    12.4      12.4     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS1   129     356    24.3      24.3     100.0       0     0 0             0   0        
+HT40  LGI  1          MCS2   130     237    35.8      35.8     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS3   131     178    46.9      46.9     100.0       5     0 0             0   0        
+HT40  LGI  1          MCS4   132     119    68.0      68.0     100.0       6     0 0             3   3        
+HT40  LGI  1          MCS5   133      89    87.8      87.8     100.0       6     0 0             5   5        
+HT40  LGI  1          MCS6   134      79    97.0      97.0     100.0       6     0 0             1   1        
+HT40  LGI  1          MCS7   135      71   106.1     106.1     100.0       6     0 0             6   6        
+HT40  SGI  1          MCS0   192     640    13.7      13.7     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS1   193     320    26.9      26.9     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS2   194     214    39.6      39.6     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS3   195     160    51.7      51.7     100.0       5     0 0       2950707   2964543  
+HT40  SGI  1          MCS4   196     107    74.7      74.7     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS5   197      80    96.0      96.0     100.0       0     0 0             0   0        
+HT40  SGI  1          MCS6   198      71   106.0     106.0     100.0       6     0 0             1   1        
+HT40  SGI  1          MCS7   199      64   115.8     115.8     100.0       6     0 0          3893   3896     
+
+Total packet count::    ideal 3872477      lookaround 9
+Average # of aggregated frames per A-MPDU: 8.7
+[0;34m[INFO][0m 11:50:38 -   ACK count: 26827
+
+  ACK count   : 26827
+
+[0;32m[ OK ][0m 11:50:39 - Done: rate67_bwnolim_delaynodelay

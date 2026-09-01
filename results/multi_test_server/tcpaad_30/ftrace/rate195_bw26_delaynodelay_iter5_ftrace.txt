@@ -1,0 +1,708 @@
+          iperf3-76627   [002] ..... 37654.785003: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000728ece02 rcv_next=2598564181 | RBUF_PUSH2
+          iperf3-76627   [002] ..... 37654.785004: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000728ece02 rcv_next=2598564181
+          iperf3-76627   [002] ..... 37654.785006: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000035173e06 ack_num=2598564181
+          iperf3-99833   [001] ..... 37654.839555: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3922731228 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37654.839556: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3922731228
+          iperf3-99833   [001] ..... 37654.839558: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000009a637034 ack_num=3922731228
+          iperf3-99833   [001] ..... 37654.887743: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3922783884 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37654.887744: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3922783884
+          iperf3-99833   [001] ..... 37654.887747: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e4a61652 ack_num=3922783884
+          iperf3-99833   [001] ..... 37654.922540: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3922940268 | UPDATE now_us=37654833744 seq=3922937372 end_seq=3922940268 iat_curr=79 iat_estimate=0 ato_us=40000
+          iperf3-99833   [001] ..... 37654.922543: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3922940268 | ACK_DEFERRED
+          iperf3-99833   [001] b..1. 37654.922543: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=00000000d0cccb1f rcv_next=3922940268
+          iperf3-99833   [001] b..1. 37654.922545: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000054eb4a89 ack_num=3922940268
+          iperf3-99833   [001] ..... 37655.035146: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3923283444 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37655.035147: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3923283444
+          iperf3-99833   [001] ..... 37655.035149: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000096c4f55d ack_num=3923283444
+          iperf3-99833   [002] ..... 37655.091356: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3923358740 | UPDATE now_us=37655002559 seq=3923350052 end_seq=3923358740 iat_curr=52 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37655.091357: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3923358740 delays_us=40000
+          iperf3-99833   [002] ..... 37655.091359: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3923358740 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37655.116454: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3923525260 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.116455: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3923525260
+          iperf3-99833   [002] ..... 37655.116457: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008ed3c9e5 ack_num=3923525260
+          iperf3-99833   [002] ..... 37655.116490: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3923526708 | UPDATE now_us=37655027695 seq=3923525260 end_seq=3923526708 iat_curr=85 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37655.116492: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3923526708 delays_us=40000
+          iperf3-99833   [002] ..... 37655.116494: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3923526708 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37655.188772: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3923759836 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.188773: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3923759836
+          iperf3-99833   [002] ..... 37655.188775: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000006711f7ca ack_num=3923759836
+          iperf3-99833   [002] ..... 37655.291949: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3923978484 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.291950: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3923978484
+          iperf3-99833   [002] ..... 37655.291951: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000c54e2a99 ack_num=3923978484
+          iperf3-99833   [002] ..... 37655.345123: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3924211612 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.345124: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3924211612
+          iperf3-99833   [002] ..... 37655.345125: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000000dcd831f ack_num=3924211612
+          iperf3-99833   [002] ..... 37655.420714: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3924446188 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.420715: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3924446188
+          iperf3-99833   [002] ..... 37655.420718: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000ffbc3363 ack_num=3924446188
+          iperf3-99833   [002] ..... 37655.512883: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3924683660 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.512885: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3924683660
+          iperf3-99833   [002] ..... 37655.512888: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000000dcd831f ack_num=3924683660
+          iperf3-99833   [002] ..... 37655.571613: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3924915340 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.571614: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3924915340
+          iperf3-99833   [002] ..... 37655.571616: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000c54e2a99 ack_num=3924915340
+          iperf3-99833   [002] ..... 37655.647180: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3925149916 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.647182: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3925149916
+          iperf3-99833   [002] ..... 37655.647184: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000007aa60a29 ack_num=3925149916
+          iperf3-99833   [002] ..... 37655.711153: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3925281684 | UPDATE now_us=37655622356 seq=3925280236 end_seq=3925281684 iat_curr=40 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37655.711154: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3925281684 delays_us=40000
+          iperf3-99833   [002] ..... 37655.711157: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3925281684 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37655.719511: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3925336708 | UPDATE now_us=37655630715 seq=3925332364 end_seq=3925336708 iat_curr=48 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37655.719513: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3925336708 delays_us=40000
+          iperf3-99833   [002] ..... 37655.719515: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3925336708 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37655.726858: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3925384492 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.726859: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3925384492
+          iperf3-99833   [002] ..... 37655.726862: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000740b0806 ack_num=3925384492
+          iperf3-99833   [002] ..... 37655.798013: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3925619068 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.798014: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3925619068
+          iperf3-99833   [002] ..... 37655.798017: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000006711f7ca ack_num=3925619068
+          iperf3-99833   [002] ..... 37655.907847: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3925853644 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.907848: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3925853644
+          iperf3-99833   [002] ..... 37655.907850: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008db2ef0d ack_num=3925853644
+          iperf3-99833   [002] ..... 37655.907884: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3925863780 | UPDATE now_us=37655819089 seq=3925853644 end_seq=3925863780 iat_curr=87 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37655.907886: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3925863780 delays_us=40000
+          iperf3-99833   [002] ..... 37655.907887: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3925863780 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37655.931945: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3926018716 | UPDATE now_us=37655843149 seq=3926010028 end_seq=3926018716 iat_curr=55 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37655.931947: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3926018716 delays_us=40000
+          iperf3-99833   [002] ..... 37655.931948: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3926018716 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37655.942756: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3926063604 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37655.942757: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3926063604
+          iperf3-99833   [002] ..... 37655.942759: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008ed3c9e5 ack_num=3926063604
+          iperf3-99833   [002] ..... 37656.016103: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3926296732 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.016104: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3926296732
+          iperf3-99833   [002] ..... 37656.016106: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000041623f11 ack_num=3926296732
+          iperf3-99833   [002] ..... 37656.114624: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3926524068 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.114625: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3926524068
+          iperf3-99833   [002] ..... 37656.114627: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fa3182c1 ack_num=3926524068
+          iperf3-99833   [002] ..... 37656.162761: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3926752852 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.162762: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3926752852
+          iperf3-99833   [002] ..... 37656.162764: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000009d98e71 ack_num=3926752852
+          iperf3-99833   [002] ..... 37656.238429: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3926987428 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.238430: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3926987428
+          iperf3-99833   [002] ..... 37656.238432: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000035173e06 ack_num=3926987428
+          iperf3-99833   [002] ..... 37656.327320: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3927210420 | UPDATE now_us=37656238525 seq=3927208972 end_seq=3927210420 iat_curr=42 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37656.327322: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3927210420 delays_us=40000
+          iperf3-99833   [002] ..... 37656.327324: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3927210420 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37656.327980: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3927216212 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.327981: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3927216212
+          iperf3-99833   [002] ..... 37656.327983: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000009d98e71 ack_num=3927216212
+          iperf3-99833   [002] ..... 37656.385131: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3927443548 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.385132: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3927443548
+          iperf3-99833   [002] ..... 37656.385134: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fa3182c1 ack_num=3927443548
+          iperf3-99833   [002] ..... 37656.460718: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3927678124 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.460719: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3927678124
+          iperf3-99833   [002] ..... 37656.460721: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000041623f11 ack_num=3927678124
+          iperf3-99833   [002] ..... 37656.529038: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3927837404 | UPDATE now_us=37656440242 seq=3927834508 end_seq=3927837404 iat_curr=54 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37656.529040: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3927837404 delays_us=40000
+          iperf3-99833   [002] ..... 37656.529042: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3927837404 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37656.540232: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3927912700 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.540233: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3927912700
+          iperf3-99833   [002] ..... 37656.540236: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008ed3c9e5 ack_num=3927912700
+          iperf3-99833   [002] ..... 37656.611830: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3928147276 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.611831: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3928147276
+          iperf3-99833   [002] ..... 37656.611834: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008db2ef0d ack_num=3928147276
+          iperf3-99833   [002] ..... 37656.720120: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3928393436 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.720121: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3928393436
+          iperf3-99833   [002] ..... 37656.720123: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000006711f7ca ack_num=3928393436
+          iperf3-99833   [002] ..... 37656.766746: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3928629460 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.766747: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3928629460
+          iperf3-99833   [002] ..... 37656.766749: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000740b0806 ack_num=3928629460
+          iperf3-99833   [002] ..... 37656.842112: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3928864036 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.842113: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3928864036
+          iperf3-99833   [002] ..... 37656.842116: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000007aa60a29 ack_num=3928864036
+          iperf3-99833   [002] ..... 37656.935705: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3929098612 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.935707: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3929098612
+          iperf3-99833   [002] ..... 37656.935709: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000c54e2a99 ack_num=3929098612
+          iperf3-99833   [002] ..... 37656.935743: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3929101508 | UPDATE now_us=37656846947 seq=3929098612 end_seq=3929101508 iat_curr=75 iat_estimate=0 ato_us=40000
+          iperf3-99833   [002] ..... 37656.935745: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3929101508 delays_us=40000
+          iperf3-99833   [002] ..... 37656.935746: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3929101508 | ACK_DELAYED
+          iperf3-99833   [002] ..... 37656.991683: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3929324500 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37656.991684: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3929324500
+          iperf3-99833   [002] ..... 37656.991686: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000000dcd831f ack_num=3929324500
+          iperf3-99833   [001] ..... 37657.063527: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3929551836 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.063528: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3929551836
+          iperf3-99833   [001] ..... 37657.063530: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008d6bfd3d ack_num=3929551836
+          iperf3-99833   [001] ..... 37657.146207: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3929786412 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.146208: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3929786412
+          iperf3-99833   [001] ..... 37657.146210: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a9183024 ack_num=3929786412
+          iperf3-99833   [001] ..... 37657.218820: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3930034020 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.218821: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3930034020
+          iperf3-99833   [001] ..... 37657.218823: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000081083b4a ack_num=3930034020
+          iperf3-99833   [001] ..... 37657.327103: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3930268596 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.327104: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3930268596
+          iperf3-99833   [001] ..... 37657.327106: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000003ae9b46a ack_num=3930268596
+          iperf3-99833   [001] ..... 37657.369614: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3930503172 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.369615: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3930503172
+          iperf3-99833   [001] ..... 37657.369617: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043419589 ack_num=3930503172
+          iperf3-99833   [001] ..... 37657.445177: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3930737748 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.445178: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3930737748
+          iperf3-99833   [001] ..... 37657.445181: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=3930737748
+          iperf3-99833   [001] ..... 37657.542084: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3930972324 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.542085: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3930972324
+          iperf3-99833   [001] ..... 37657.542087: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3930972324
+          iperf3-99833   [001] ..... 37657.596132: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3931206900 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.596133: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3931206900
+          iperf3-99833   [001] ..... 37657.596135: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3931206900
+          iperf3-99833   [001] ..... 37657.671680: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3931441476 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.671681: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3931441476
+          iperf3-99833   [001] ..... 37657.671684: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3931441476
+          iperf3-99833   [001] ..... 37657.747059: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3931676052 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.747060: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3931676052
+          iperf3-99833   [001] ..... 37657.747062: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3931676052
+          iperf3-99833   [001] ..... 37657.822511: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3931910628 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.822512: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3931910628
+          iperf3-99833   [001] ..... 37657.822514: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fb660a6d ack_num=3931910628
+          iperf3-99833   [001] ..... 37657.898424: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3932145204 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.898425: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3932145204
+          iperf3-99833   [001] ..... 37657.898428: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3932145204
+          iperf3-99833   [001] ..... 37657.980787: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3932366748 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37657.980788: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3932366748
+          iperf3-99833   [001] ..... 37657.980791: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3932366748
+          iperf3-99833   [001] ..... 37658.060815: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3932601324 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37658.060816: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3932601324
+          iperf3-99833   [001] ..... 37658.060818: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3932601324
+          iperf3-99833   [001] ..... 37658.160187: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3932835900 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37658.160188: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3932835900
+          iperf3-99833   [001] ..... 37658.160190: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3932835900
+          iperf3-99833   [001] ..... 37658.259770: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3933070476 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37658.259771: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3933070476
+          iperf3-99833   [001] ..... 37658.259773: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=3933070476
+          iperf3-99833   [001] ..... 37658.354898: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3933292020 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37658.354899: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3933292020
+          iperf3-99833   [001] ..... 37658.354901: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043419589 ack_num=3933292020
+          iperf3-99833   [001] ..... 37658.463085: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3933526596 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37658.463086: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3933526596
+          iperf3-99833   [001] ..... 37658.463088: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000003ae9b46a ack_num=3933526596
+          iperf3-99833   [001] ..... 37658.575119: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3933758276 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37658.575120: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3933758276
+          iperf3-99833   [001] ..... 37658.575123: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000081083b4a ack_num=3933758276
+          iperf3-99833   [002] ..... 37658.798322: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3934221636 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37658.798323: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3934221636
+          iperf3-99833   [002] ..... 37658.798325: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000ffbc3363 ack_num=3934221636
+          iperf3-99833   [002] ..... 37658.910123: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3934453316 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37658.910124: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3934453316
+          iperf3-99833   [002] ..... 37658.910126: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000007d2cad65 ack_num=3934453316
+          iperf3-99833   [002] ..... 37659.022119: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3934684996 | RBUF_WINDOW
+          iperf3-99833   [002] ..... 37659.022120: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3934684996
+          iperf3-99833   [002] ..... 37659.022122: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000000dcd831f ack_num=3934684996
+          iperf3-99833   [001] ..... 37659.353922: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3935380036 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37659.353923: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3935380036
+          iperf3-99833   [001] ..... 37659.353925: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a9183024 ack_num=3935380036
+          iperf3-99833   [001] ..... 37659.465681: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3935611716 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37659.465682: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3935611716
+          iperf3-99833   [001] ..... 37659.465684: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008d6bfd3d ack_num=3935611716
+          iperf3-99833   [001] ..... 37659.575686: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3935843396 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37659.575687: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3935843396
+          iperf3-99833   [001] ..... 37659.575690: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000096c4f55d ack_num=3935843396
+          iperf3-99833   [001] ..... 37659.687189: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3936075076 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37659.687190: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3936075076
+          iperf3-99833   [001] ..... 37659.687192: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000054eb4a89 ack_num=3936075076
+          iperf3-99833   [001] ..... 37659.799069: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3936306756 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37659.799071: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3936306756
+          iperf3-99833   [001] ..... 37659.799073: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e4a61652 ack_num=3936306756
+          iperf3-99833   [001] ..... 37659.827102: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3936355988 | UPDATE now_us=37659738306 seq=3936354540 end_seq=3936355988 iat_curr=71 iat_estimate=0 ato_us=40000
+          iperf3-99833   [001] ..... 37659.827104: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3936355988 delays_us=40000
+          iperf3-99833   [001] ..... 37659.827105: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3936355988 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37659.910975: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3936538436 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37659.910976: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3936538436
+          iperf3-99833   [001] ..... 37659.910978: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000009a637034 ack_num=3936538436
+          iperf3-99833   [001] ..... 37660.022963: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3936770116 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37660.022964: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3936770116
+          iperf3-99833   [001] ..... 37660.022966: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e4a61652 ack_num=3936770116
+          iperf3-99833   [001] ..... 37660.133858: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3937001796 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37660.133859: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3937001796
+          iperf3-99833   [001] ..... 37660.133861: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000054eb4a89 ack_num=3937001796
+          iperf3-99833   [001] ..... 37660.245579: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3937233476 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37660.245580: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3937233476
+          iperf3-99833   [001] ..... 37660.245582: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000096c4f55d ack_num=3937233476
+          iperf3-99833   [001] ..... 37660.357403: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3937465156 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37660.357404: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3937465156
+          iperf3-99833   [001] ..... 37660.357406: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008d6bfd3d ack_num=3937465156
+          iperf3-99833   [001] ..... 37660.469271: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3937696836 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37660.469272: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3937696836
+          iperf3-99833   [001] ..... 37660.469274: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a9183024 ack_num=3937696836
+          iperf3-99833   [001] ..... 37660.579170: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3937928516 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37660.579171: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3937928516
+          iperf3-99833   [001] ..... 37660.579173: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000081083b4a ack_num=3937928516
+          iperf3-99833   [001] ..... 37661.027524: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3938855236 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.027525: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3938855236
+          iperf3-99833   [001] ..... 37661.027528: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000003ae9b46a ack_num=3938855236
+          iperf3-99833   [001] ..... 37661.136186: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3939086916 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.136187: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3939086916
+          iperf3-99833   [001] ..... 37661.136189: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043419589 ack_num=3939086916
+          iperf3-99833   [001] ..... 37661.248170: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3939318596 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.248172: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3939318596
+          iperf3-99833   [001] ..... 37661.248174: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=3939318596
+          iperf3-99833   [001] ..... 37661.360025: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3939550276 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.360026: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3939550276
+          iperf3-99833   [001] ..... 37661.360029: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3939550276
+          iperf3-99833   [001] ..... 37661.471782: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3939781956 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.471783: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3939781956
+          iperf3-99833   [001] ..... 37661.471786: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3939781956
+          iperf3-99833   [001] ..... 37661.583632: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3940013636 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.583634: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3940013636
+          iperf3-99833   [001] ..... 37661.583636: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3940013636
+          iperf3-99833   [001] ..... 37661.691441: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3940235180 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.691442: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3940235180
+          iperf3-99833   [001] ..... 37661.691444: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3940235180
+          iperf3-99833   [001] ..... 37661.800446: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3940465412 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.800448: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3940465412
+          iperf3-99833   [001] ..... 37661.800450: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fb660a6d ack_num=3940465412
+          iperf3-99833   [001] ..... 37661.912376: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3940697092 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37661.912377: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3940697092
+          iperf3-99833   [001] ..... 37661.912379: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3940697092
+          iperf3-99833   [001] ..... 37662.024163: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3940928772 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.024164: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3940928772
+          iperf3-99833   [001] ..... 37662.024166: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3940928772
+          iperf3-99833   [001] ..... 37662.134071: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3941150316 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.134072: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3941150316
+          iperf3-99833   [001] ..... 37662.134074: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3941150316
+          iperf3-99833   [001] ..... 37662.242172: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3941380548 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.242173: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3941380548
+          iperf3-99833   [001] ..... 37662.242175: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3941380548
+          iperf3-99833   [001] ..... 37662.354028: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3941612228 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.354030: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3941612228
+          iperf3-99833   [001] ..... 37662.354032: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=3941612228
+          iperf3-99833   [001] ..... 37662.575660: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3942065452 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.575661: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3942065452
+          iperf3-99833   [001] ..... 37662.575663: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043419589 ack_num=3942065452
+          iperf3-99833   [001] ..... 37662.683793: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3942295684 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.683804: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3942295684
+          iperf3-99833   [001] ..... 37662.683807: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000003ae9b46a ack_num=3942295684
+          iperf3-99833   [001] ..... 37662.795460: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3942527364 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.795462: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3942527364
+          iperf3-99833   [001] ..... 37662.795464: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000081083b4a ack_num=3942527364
+          iperf3-99833   [001] ..... 37662.907186: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3942759044 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37662.907187: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3942759044
+          iperf3-99833   [001] ..... 37662.907190: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a9183024 ack_num=3942759044
+          iperf3-99833   [001] ..... 37663.019167: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3942990724 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37663.019168: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3942990724
+          iperf3-99833   [001] ..... 37663.019170: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008d6bfd3d ack_num=3942990724
+          iperf3-99833   [001] ..... 37663.185023: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3943329556 | UPDATE now_us=37663096227 seq=3943328108 end_seq=3943329556 iat_curr=66 iat_estimate=0 ato_us=40000
+          iperf3-99833   [001] ..... 37663.185025: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3943329556 delays_us=40000
+          iperf3-99833   [001] ..... 37663.185026: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3943329556 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37663.242869: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3943454084 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37663.242871: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3943454084
+          iperf3-99833   [001] ..... 37663.242873: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000096c4f55d ack_num=3943454084
+          iperf3-99833   [001] ..... 37663.354684: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3943685764 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37663.354685: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3943685764
+          iperf3-99833   [001] ..... 37663.354687: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000054eb4a89 ack_num=3943685764
+          iperf3-99833   [001] ..... 37663.464569: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3943907308 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37663.464570: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3943907308
+          iperf3-99833   [001] ..... 37663.464572: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e4a61652 ack_num=3943907308
+          iperf3-99833   [001] ..... 37663.798034: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3944600900 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37663.798035: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3944600900
+          iperf3-99833   [001] ..... 37663.798037: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000009a637034 ack_num=3944600900
+          iperf3-99833   [001] ..... 37663.908044: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3944822444 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37663.908045: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3944822444
+          iperf3-99833   [001] ..... 37663.908047: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e4a61652 ack_num=3944822444
+          iperf3-99833   [001] ..... 37664.014178: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3945052676 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.014179: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3945052676
+          iperf3-99833   [001] ..... 37664.014182: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000054eb4a89 ack_num=3945052676
+          iperf3-99833   [001] ..... 37664.126182: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3945284356 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.126183: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3945284356
+          iperf3-99833   [001] ..... 37664.126185: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000096c4f55d ack_num=3945284356
+          iperf3-99833   [001] ..... 37664.238045: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3945516036 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.238046: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3945516036
+          iperf3-99833   [001] ..... 37664.238048: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008d6bfd3d ack_num=3945516036
+          iperf3-99833   [001] ..... 37664.347732: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3945737580 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.347733: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3945737580
+          iperf3-99833   [001] ..... 37664.347735: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a9183024 ack_num=3945737580
+          iperf3-99833   [001] ..... 37664.456020: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3945967812 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.456021: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3945967812
+          iperf3-99833   [001] ..... 37664.456023: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000081083b4a ack_num=3945967812
+          iperf3-99833   [001] ..... 37664.567834: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3946199492 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.567835: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3946199492
+          iperf3-99833   [001] ..... 37664.567837: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000003ae9b46a ack_num=3946199492
+          iperf3-99833   [001] ..... 37664.679611: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3946431172 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.679612: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3946431172
+          iperf3-99833   [001] ..... 37664.679614: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043419589 ack_num=3946431172
+          iperf3-99833   [001] ..... 37664.789290: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3946652716 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.789291: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3946652716
+          iperf3-99833   [001] ..... 37664.789294: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=3946652716
+          iperf3-99833   [001] ..... 37664.897615: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3946882948 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37664.897617: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3946882948
+          iperf3-99833   [001] ..... 37664.897619: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3946882948
+          iperf3-99833   [001] ..... 37665.009321: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3947114628 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.009322: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3947114628
+          iperf3-99833   [001] ..... 37665.009324: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3947114628
+          iperf3-99833   [001] ..... 37665.121139: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3947346308 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.121140: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3947346308
+          iperf3-99833   [001] ..... 37665.121142: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3947346308
+          iperf3-99833   [001] ..... 37665.233076: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3947577988 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.233077: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3947577988
+          iperf3-99833   [001] ..... 37665.233079: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3947577988
+          iperf3-99833   [001] ..... 37665.344884: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3947809668 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.344885: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3947809668
+          iperf3-99833   [001] ..... 37665.344887: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fb660a6d ack_num=3947809668
+          iperf3-99833   [001] ..... 37665.463632: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3948041348 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.463633: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3948041348
+          iperf3-99833   [001] ..... 37665.463635: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3948041348
+          iperf3-99833   [001] ..... 37665.581128: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3948273028 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.581129: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3948273028
+          iperf3-99833   [001] ..... 37665.581131: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3948273028
+          iperf3-99833   [001] ..... 37665.690840: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3948494572 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.690841: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3948494572
+          iperf3-99833   [001] ..... 37665.690844: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3948494572
+          iperf3-99833   [001] ..... 37665.800768: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3948724804 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.800769: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3948724804
+          iperf3-99833   [001] ..... 37665.800771: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3948724804
+          iperf3-99833   [001] ..... 37665.912825: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3948956484 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37665.912827: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3948956484
+          iperf3-99833   [001] ..... 37665.912829: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=3948956484
+          iperf3-99833   [001] ..... 37666.027307: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3949188164 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37666.027308: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3949188164
+          iperf3-99833   [001] ..... 37666.027310: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043419589 ack_num=3949188164
+          iperf3-99833   [001] ..... 37666.778778: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3950835988 | UPDATE now_us=37666689982 seq=3950827300 end_seq=3950835988 iat_curr=79 iat_estimate=433 ato_us=1299
+          iperf3-99833   [001] ..... 37666.778780: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3950835988 | ACK_DEFERRED
+          iperf3-99833   [001] b..1. 37666.778781: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=00000000d0cccb1f rcv_next=3950835988
+          iperf3-99833   [001] b..1. 37666.778783: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000003ae9b46a ack_num=3950835988
+          iperf3-99833   [001] ..... 37667.258876: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3952036380 | UPDATE now_us=37667170080 seq=3952032036 end_seq=3952036380 iat_curr=47 iat_estimate=498 ato_us=1494
+          iperf3-99833   [001] ..... 37667.258878: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3952036380 delays_us=1494
+          iperf3-99833   [001] ..... 37667.258879: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3952036380 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37668.474102: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3955363884 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37668.474104: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3955363884
+          iperf3-99833   [001] ..... 37668.474106: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a9183024 ack_num=3955363884
+          iperf3-99833   [001] ..... 37668.574626: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3955673756 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37668.574627: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3955673756
+          iperf3-99833   [001] ..... 37668.574629: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008d6bfd3d ack_num=3955673756
+          iperf3-99833   [001] ..... 37668.670171: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3955972044 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37668.670173: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3955972044
+          iperf3-99833   [001] ..... 37668.670175: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000096c4f55d ack_num=3955972044
+          iperf3-99833   [001] ..... 37668.770351: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3956281916 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37668.770352: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3956281916
+          iperf3-99833   [001] ..... 37668.770354: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000054eb4a89 ack_num=3956281916
+          iperf3-99833   [001] ..... 37668.868615: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3956585996 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37668.868617: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3956585996
+          iperf3-99833   [001] ..... 37668.868619: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e4a61652 ack_num=3956585996
+          iperf3-99833   [001] ..... 37669.041025: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3957075420 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37669.041026: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3957075420
+          iperf3-99833   [001] ..... 37669.041029: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000009a637034 ack_num=3957075420
+          iperf3-99833   [001] ..... 37669.873859: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3959241628 | UPDATE now_us=37669785063 seq=3959240180 end_seq=3959241628 iat_curr=43 iat_estimate=597 ato_us=1791
+          iperf3-99833   [001] ..... 37669.873861: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3959241628 delays_us=1791
+          iperf3-99833   [001] ..... 37669.873863: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3959241628 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37671.289180: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3962950876 | UPDATE now_us=37671200385 seq=3962946532 end_seq=3962950876 iat_curr=77 iat_estimate=551 ato_us=1653
+          iperf3-99833   [001] ..... 37671.289183: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3962950876 delays_us=1653
+          iperf3-99833   [001] ..... 37671.289185: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3962950876 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37671.289187: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3962952324 | UPDATE now_us=37671200392 seq=3962950876 end_seq=3962952324 iat_curr=7 iat_estimate=551 ato_us=1653
+          iperf3-99833   [001] ..... 37671.289188: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3962952324 delays_us=1653
+          iperf3-99833   [001] ..... 37671.289189: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3962952324 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37671.401213: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3963126084 | UPDATE now_us=37671312418 seq=3963123188 end_seq=3963126084 iat_curr=43 iat_estimate=570 ato_us=1710
+          iperf3-99833   [001] ..... 37671.401215: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3963126084 delays_us=1710
+          iperf3-99833   [001] ..... 37671.401217: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3963126084 | ACK_DELAYED
+          iperf3-99833   [003] ..... 37673.020179: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3967674252 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37673.020180: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3967674252
+          iperf3-99833   [003] ..... 37673.020182: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000002fbaf876 ack_num=3967674252
+          iperf3-99833   [003] ..... 37673.371085: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3968488028 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37673.371086: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3968488028
+          iperf3-99833   [003] ..... 37673.371088: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008229df93 ack_num=3968488028
+          iperf3-99833   [003] ..... 37673.581148: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3968936908 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37673.581149: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3968936908
+          iperf3-99833   [003] ..... 37673.581152: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a628b9d3 ack_num=3968936908
+          iperf3-99833   [003] ..... 37673.796786: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3969377100 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37673.796787: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3969377100
+          iperf3-99833   [003] ..... 37673.796789: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000c52f1a44 ack_num=3969377100
+          iperf3-99833   [003] ..... 37674.017185: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3969821636 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37674.017187: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3969821636
+          iperf3-99833   [003] ..... 37674.017189: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000945e2d15 ack_num=3969821636
+          iperf3-99833   [003] ..... 37674.239119: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3970264724 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37674.239120: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3970264724
+          iperf3-99833   [003] ..... 37674.239122: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043c6ef01 ack_num=3970264724
+          iperf3-99833   [003] ..... 37674.355687: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3970479028 | UPDATE now_us=37674266892 seq=3970477580 end_seq=3970479028 iat_curr=105 iat_estimate=3037 ato_us=9111
+          iperf3-99833   [003] ..... 37674.355689: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3970479028 delays_us=9111
+          iperf3-99833   [003] ..... 37674.355690: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3970479028 | ACK_DELAYED
+          iperf3-99833   [003] ..... 37674.470175: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3970707812 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37674.470176: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3970707812
+          iperf3-99833   [003] ..... 37674.470179: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000272279b1 ack_num=3970707812
+          iperf3-99833   [003] ..... 37674.705174: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3971148004 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37674.705175: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3971148004
+          iperf3-99833   [003] ..... 37674.705177: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b2990bcd ack_num=3971148004
+          iperf3-99833   [003] ..... 37674.935496: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3971588196 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37674.935497: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3971588196
+          iperf3-99833   [003] ..... 37674.935499: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000084cf9baa ack_num=3971588196
+          iperf3-99833   [003] ..... 37675.162861: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3972028388 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37675.162862: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3972028388
+          iperf3-99833   [003] ..... 37675.162864: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000095119c6 ack_num=3972028388
+          iperf3-99833   [001] ..... 37675.623493: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3972908772 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37675.623494: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3972908772
+          iperf3-99833   [001] ..... 37675.623496: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000054eb4a89 ack_num=3972908772
+          iperf3-99833   [001] ..... 37676.098893: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3973789156 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37676.098895: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3973789156
+          iperf3-99833   [001] ..... 37676.098897: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000096c4f55d ack_num=3973789156
+          iperf3-99833   [001] ..... 37676.210743: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3973993324 | UPDATE now_us=37676121948 seq=3973991876 end_seq=3973993324 iat_curr=107 iat_estimate=3037 ato_us=9111
+          iperf3-99833   [001] ..... 37676.210745: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3973993324 delays_us=9111
+          iperf3-99833   [001] ..... 37676.210746: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3973993324 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37676.343339: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3974233692 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37676.343340: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3974233692
+          iperf3-99833   [001] ..... 37676.343342: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008d6bfd3d ack_num=3974233692
+          iperf3-99833   [001] ..... 37676.587057: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3974679676 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37676.587058: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3974679676
+          iperf3-99833   [001] ..... 37676.587060: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a9183024 ack_num=3974679676
+          iperf3-99833   [001] ..... 37676.832964: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3975125660 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37676.832965: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3975125660
+          iperf3-99833   [001] ..... 37676.832967: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000081083b4a ack_num=3975125660
+          iperf3-99833   [001] ..... 37677.078971: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3975571644 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37677.078973: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3975571644
+          iperf3-99833   [001] ..... 37677.078975: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000003ae9b46a ack_num=3975571644
+          iperf3-99833   [001] ..... 37677.324879: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3976017628 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37677.324880: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3976017628
+          iperf3-99833   [001] ..... 37677.324882: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000043419589 ack_num=3976017628
+          iperf3-99833   [001] ..... 37677.568677: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3976463612 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37677.568678: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3976463612
+          iperf3-99833   [001] ..... 37677.568681: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=3976463612
+          iperf3-99833   [001] ..... 37677.814770: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3976909596 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37677.814771: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3976909596
+          iperf3-99833   [001] ..... 37677.814774: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3976909596
+          iperf3-99833   [001] ..... 37678.060812: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3977355580 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37678.060813: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3977355580
+          iperf3-99833   [001] ..... 37678.060815: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3977355580
+          iperf3-99833   [001] ..... 37678.306669: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3977801564 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37678.306671: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3977801564
+          iperf3-99833   [001] ..... 37678.306673: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3977801564
+          iperf3-99833   [001] ..... 37678.552689: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3978247548 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37678.552691: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3978247548
+          iperf3-99833   [001] ..... 37678.552693: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3978247548
+          iperf3-99833   [001] ..... 37678.798537: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3978693532 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37678.798539: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3978693532
+          iperf3-99833   [001] ..... 37678.798541: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fb660a6d ack_num=3978693532
+          iperf3-99833   [001] ..... 37679.290611: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3979585500 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37679.290613: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3979585500
+          iperf3-99833   [001] ..... 37679.290615: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b1fa659f ack_num=3979585500
+          iperf3-99833   [001] ..... 37679.780166: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3980477468 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37679.780167: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3980477468
+          iperf3-99833   [001] ..... 37679.780170: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b8135fc6 ack_num=3980477468
+          iperf3-99833   [001] ..... 37680.518164: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3981815420 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37680.518165: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3981815420
+          iperf3-99833   [001] ..... 37680.518168: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000b9536642 ack_num=3981815420
+          iperf3-99833   [001] ..... 37680.764117: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=3982261404 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37680.764119: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=3982261404
+          iperf3-99833   [001] ..... 37680.764121: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e1b46573 ack_num=3982261404
+          iperf3-99833   [001] ..... 37687.464885: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=3999162460 | UPDATE now_us=37687376091 seq=3999153772 end_seq=3999162460 iat_curr=52 iat_estimate=492 ato_us=1476
+          iperf3-99833   [001] ..... 37687.464887: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=3999162460 delays_us=1476
+          iperf3-99833   [001] ..... 37687.464889: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=3999162460 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37690.698012: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4006234492 | UPDATE now_us=37690609218 seq=4006233044 end_seq=4006234492 iat_curr=68 iat_estimate=2483 ato_us=7449
+          iperf3-99833   [001] ..... 37690.698014: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4006234492 delays_us=7449
+          iperf3-99833   [001] ..... 37690.698016: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4006234492 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37691.866811: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4008691748 | UPDATE now_us=37691777999 seq=4008690300 end_seq=4008691748 iat_curr=71 iat_estimate=2226 ato_us=6678
+          iperf3-99833   [001] ..... 37691.866814: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4008691748 delays_us=6678
+          iperf3-99833   [001] ..... 37691.866817: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4008691748 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37693.951139: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=4013112492 | RBUF_WINDOW
+          iperf3-99833   [001] ..... 37693.951140: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=4013112492
+          iperf3-99833   [001] ..... 37693.951142: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000065688651 ack_num=4013112492
+          iperf3-99833   [003] ..... 37694.197234: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=4013596124 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37694.197235: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=4013596124
+          iperf3-99833   [003] ..... 37694.197237: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fc60e47b ack_num=4013596124
+          iperf3-99833   [003] ..... 37694.441096: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=4014079756 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37694.441097: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=4014079756
+          iperf3-99833   [003] ..... 37694.441099: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e840ae69 ack_num=4014079756
+          iperf3-99833   [003] ..... 37694.690247: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=4014567732 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37694.690248: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=4014567732
+          iperf3-99833   [003] ..... 37694.690250: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000038a5be4d ack_num=4014567732
+          iperf3-99833   [003] ..... 37695.380747: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=4016079444 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37695.380748: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=4016079444
+          iperf3-99833   [003] ..... 37695.380750: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e840ae69 ack_num=4016079444
+          iperf3-99833   [003] ..... 37695.604152: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=4016563076 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37695.604153: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=4016563076
+          iperf3-99833   [003] ..... 37695.604156: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fc60e47b ack_num=4016563076
+          iperf3-99833   [003] ..... 37695.696327: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4016742628 | UPDATE now_us=37695607533 seq=4016741180 end_seq=4016742628 iat_curr=104 iat_estimate=2858 ato_us=8574
+          iperf3-99833   [003] ..... 37695.696329: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4016742628 delays_us=8574
+          iperf3-99833   [003] ..... 37695.696331: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4016742628 | ACK_DELAYED
+          iperf3-99833   [003] ..... 37695.842425: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d0cccb1f rcv_next=4017046708 | RBUF_WINDOW
+          iperf3-99833   [003] ..... 37695.842426: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d0cccb1f rcv_next=4017046708
+          iperf3-99833   [003] ..... 37695.842428: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e2a4273c ack_num=4017046708
+          iperf3-99833   [003] ..... 37701.292895: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4031499196 | UPDATE now_us=37701204102 seq=4031491956 end_seq=4031499196 iat_curr=66 iat_estimate=503 ato_us=1509
+          iperf3-99833   [003] ..... 37701.292898: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4031499196 delays_us=1509
+          iperf3-99833   [003] ..... 37701.292900: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4031499196 | ACK_DELAYED
+          iperf3-99833   [003] ..... 37701.389063: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4031806172 | UPDATE now_us=37701300269 seq=4031804724 end_seq=4031806172 iat_curr=76 iat_estimate=545 ato_us=1635
+          iperf3-99833   [003] ..... 37701.389064: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4031806172 delays_us=1635
+          iperf3-99833   [003] ..... 37701.389066: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4031806172 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37709.901988: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4052340260 | UPDATE now_us=37709813195 seq=4052338812 end_seq=4052340260 iat_curr=79 iat_estimate=2011 ato_us=6033
+          iperf3-99833   [001] ..... 37709.901990: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4052340260 delays_us=6033
+          iperf3-99833   [001] ..... 37709.901991: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4052340260 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37712.318440: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4057744196 | UPDATE now_us=37712229647 seq=4057741300 end_seq=4057744196 iat_curr=16 iat_estimate=430 ato_us=1290
+          iperf3-99833   [001] ..... 37712.318443: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4057744196 delays_us=1290
+          iperf3-99833   [001] ..... 37712.318444: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4057744196 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37712.318446: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4057747092 | UPDATE now_us=37712229654 seq=4057744196 end_seq=4057747092 iat_curr=7 iat_estimate=430 ato_us=1290
+          iperf3-99833   [001] ..... 37712.318447: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4057747092 delays_us=1290
+          iperf3-99833   [001] ..... 37712.318448: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4057747092 | ACK_DELAYED
+          iperf3-99833   [003] ..... 37713.853903: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4061556780 | UPDATE now_us=37713765110 seq=4061549540 end_seq=4061556780 iat_curr=43 iat_estimate=392 ato_us=1176
+          iperf3-99833   [003] ..... 37713.853904: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4061556780 delays_us=1176
+          iperf3-99833   [003] ..... 37713.853906: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4061556780 | ACK_DELAYED
+          iperf3-99833   [003] ..... 37715.529172: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4065677788 | UPDATE now_us=37715440379 seq=4065676340 end_seq=4065677788 iat_curr=77 iat_estimate=2661 ato_us=7983
+          iperf3-99833   [003] ..... 37715.529173: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4065677788 delays_us=7983
+          iperf3-99833   [003] ..... 37715.529175: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4065677788 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37716.477361: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4068473876 | UPDATE now_us=37716388569 seq=4068472428 end_seq=4068473876 iat_curr=72 iat_estimate=524 ato_us=1572
+          iperf3-99833   [001] ..... 37716.477364: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4068473876 delays_us=1572
+          iperf3-99833   [001] ..... 37716.477365: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4068473876 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37717.177207: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4070395372 | UPDATE now_us=37717088414 seq=4070391028 end_seq=4070395372 iat_curr=29 iat_estimate=631 ato_us=1893
+          iperf3-99833   [001] ..... 37717.177209: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4070395372 delays_us=1893
+          iperf3-99833   [001] ..... 37717.177211: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4070395372 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37717.177212: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4070396820 | UPDATE now_us=37717088421 seq=4070395372 end_seq=4070396820 iat_curr=7 iat_estimate=631 ato_us=1893
+          iperf3-99833   [001] ..... 37717.177214: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4070396820 delays_us=1893
+          iperf3-99833   [001] ..... 37717.177214: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4070396820 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37717.181379: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4070418540 | UPDATE now_us=37717092586 seq=4070414196 end_seq=4070418540 iat_curr=25 iat_estimate=631 ato_us=1893
+          iperf3-99833   [001] ..... 37717.181381: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4070418540 delays_us=1893
+          iperf3-99833   [001] ..... 37717.181382: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4070418540 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37717.181384: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4070422884 | UPDATE now_us=37717092593 seq=4070418540 end_seq=4070422884 iat_curr=7 iat_estimate=631 ato_us=1893
+          iperf3-99833   [001] ..... 37717.181388: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4070422884 delays_us=1893
+          iperf3-99833   [001] ..... 37717.181389: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4070422884 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37717.181391: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4070425780 | UPDATE now_us=37717092600 seq=4070422884 end_seq=4070425780 iat_curr=7 iat_estimate=631 ato_us=1893
+          iperf3-99833   [001] ..... 37717.181392: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4070425780 delays_us=1893
+          iperf3-99833   [001] ..... 37717.181393: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4070425780 | ACK_DELAYED
+          iperf3-99833   [001] ..... 37733.316096: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4108356140 | UPDATE now_us=37733227304 seq=4108354692 end_seq=4108356140 iat_curr=70 iat_estimate=1920 ato_us=5760
+          iperf3-99833   [001] ..... 37733.316097: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4108356140 delays_us=5760
+          iperf3-99833   [001] ..... 37733.316099: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4108356140 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37735.125945: tcp_v4_rcv: ENTRY: skb=00000000205ea024 seq_num=4112070260
+          iperf3-99833   [000] ..s2. 37735.125948: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4112071708 | UPDATE now_us=37735037158 seq=4112070260 end_seq=4112071708 iat_curr=90 iat_estimate=2155 ato_us=6465
+          iperf3-99833   [000] ..s2. 37735.125949: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4112071708 delays_us=6465
+          iperf3-99833   [000] ..s2. 37735.125950: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4112071708 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37735.125951: tcp_v4_rcv: EXIT: skb=00000000205ea024
+          iperf3-99833   [000] ..s.. 37735.148773: tcp_v4_rcv: ENTRY: skb=00000000e1bbf2d4 seq_num=4112118044
+          iperf3-99833   [000] ..s1. 37735.148775: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4112119492 | UPDATE now_us=37735059985 seq=4112118044 end_seq=4112119492 iat_curr=88 iat_estimate=2155 ato_us=6465
+          iperf3-99833   [000] ..s1. 37735.148776: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4112119492 delays_us=6465
+          iperf3-99833   [000] ..s1. 37735.148777: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4112119492 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37735.148778: tcp_v4_rcv: EXIT: skb=00000000e1bbf2d4
+          iperf3-99833   [000] ..s.. 37735.270876: tcp_v4_rcv: ENTRY: skb=000000006b6e555d seq_num=4112351172
+          iperf3-99833   [000] ..s1. 37735.270879: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4112352620 | UPDATE now_us=37735182089 seq=4112351172 end_seq=4112352620 iat_curr=105 iat_estimate=2232 ato_us=6696
+          iperf3-99833   [000] ..s1. 37735.270880: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4112352620 delays_us=6696
+          iperf3-99833   [000] ..s1. 37735.270881: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4112352620 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37735.270882: tcp_v4_rcv: EXIT: skb=000000006b6e555d
+          iperf3-99833   [000] ..s1. 37735.283874: tcp_v4_rcv: ENTRY: skb=000000007ae581f7 seq_num=4112377236
+          iperf3-99833   [000] ..s2. 37735.283877: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4112378684 | UPDATE now_us=37735195087 seq=4112377236 end_seq=4112378684 iat_curr=65 iat_estimate=2232 ato_us=6696
+          iperf3-99833   [000] ..s2. 37735.283879: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4112378684 delays_us=6696
+          iperf3-99833   [000] ..s2. 37735.283880: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4112378684 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37735.283880: tcp_v4_rcv: EXIT: skb=000000007ae581f7
+          iperf3-99833   [000] ..s1. 37735.609006: tcp_v4_rcv: ENTRY: skb=00000000bfb446f9 seq_num=4113047660
+          iperf3-99833   [000] ..s2. 37735.609009: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4113049108 | UPDATE now_us=37735520219 seq=4113047660 end_seq=4113049108 iat_curr=72 iat_estimate=2135 ato_us=6405
+          iperf3-99833   [000] ..s2. 37735.609010: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4113049108 delays_us=6405
+          iperf3-99833   [000] ..s2. 37735.609011: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4113049108 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37735.609012: tcp_v4_rcv: EXIT: skb=00000000bfb446f9
+          iperf3-99833   [000] ..s.. 37735.721731: tcp_v4_rcv: ENTRY: skb=00000000d45a1a0d seq_num=4113263412
+          iperf3-99833   [000] ..s1. 37735.721734: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4113264860 | UPDATE now_us=37735632944 seq=4113263412 end_seq=4113264860 iat_curr=89 iat_estimate=2174 ato_us=6522
+          iperf3-99833   [000] ..s1. 37735.721735: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4113264860 delays_us=6522
+          iperf3-99833   [000] ..s1. 37735.721737: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4113264860 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37735.721737: tcp_v4_rcv: EXIT: skb=00000000d45a1a0d
+          iperf3-99833   [000] ..s.. 37735.786946: tcp_v4_rcv: ENTRY: skb=0000000053426455 seq_num=4113393732
+          iperf3-99833   [000] ..s1. 37735.786949: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4113395180 | UPDATE now_us=37735698159 seq=4113393732 end_seq=4113395180 iat_curr=79 iat_estimate=1979 ato_us=5937
+          iperf3-99833   [000] ..s1. 37735.786951: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4113395180 delays_us=5937
+          iperf3-99833   [000] ..s1. 37735.786952: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4113395180 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37735.786952: tcp_v4_rcv: EXIT: skb=0000000053426455
+          iperf3-99833   [000] ..s.. 37735.908232: tcp_v4_rcv: ENTRY: skb=0000000050dc38a3 seq_num=4113639892
+          iperf3-99833   [000] ..s1. 37735.908235: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4113641340 | UPDATE now_us=37735819445 seq=4113639892 end_seq=4113641340 iat_curr=79 iat_estimate=1834 ato_us=5502
+          iperf3-99833   [000] ..s1. 37735.908237: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4113641340 delays_us=5502
+          iperf3-99833   [000] ..s1. 37735.908238: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4113641340 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37735.908238: tcp_v4_rcv: EXIT: skb=0000000050dc38a3
+          iperf3-99833   [000] ..s.. 37735.973939: tcp_v4_rcv: ENTRY: skb=0000000019b8a5cd seq_num=4113786140
+          iperf3-99833   [000] ..s1. 37735.973942: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4113787588 | UPDATE now_us=37735885152 seq=4113786140 end_seq=4113787588 iat_curr=77 iat_estimate=1979 ato_us=5937
+          iperf3-99833   [000] ..s1. 37735.973944: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4113787588 delays_us=5937
+          iperf3-99833   [000] ..s1. 37735.973945: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4113787588 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37735.973945: tcp_v4_rcv: EXIT: skb=0000000019b8a5cd
+          iperf3-99833   [000] ..s1. 37736.058651: tcp_v4_rcv: ENTRY: skb=00000000252acb0b seq_num=4113974380
+          iperf3-99833   [000] ..s1. 37736.058652: tcp_v4_rcv: EXIT: skb=00000000252acb0b
+          iperf3-99833   [000] ..... 37736.058663: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4113975828 | UPDATE now_us=37735969873 seq=4113974380 end_seq=4113975828 iat_curr=90 iat_estimate=2137 ato_us=6411
+          iperf3-99833   [000] ..... 37736.058664: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4113975828 delays_us=6411
+          iperf3-99833   [000] ..... 37736.058665: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4113975828 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37737.148778: tcp_v4_rcv: ENTRY: skb=000000003f5e8762 seq_num=4116197060
+          iperf3-99833   [000] ..s.. 37737.148779: tcp_v4_rcv: EXIT: skb=000000003f5e8762
+          iperf3-99833   [000] ..... 37737.148801: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4116198508 | UPDATE now_us=37737060011 seq=4116197060 end_seq=4116198508 iat_curr=103 iat_estimate=1790 ato_us=5370
+          iperf3-99833   [000] ..... 37737.148802: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4116198508 delays_us=5370
+          iperf3-99833   [000] ..... 37737.148803: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4116198508 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37737.214007: tcp_v4_rcv: ENTRY: skb=000000005e052606 seq_num=4116327380
+          iperf3-99833   [000] ..s2. 37737.214009: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4116328828 | UPDATE now_us=37737125220 seq=4116327380 end_seq=4116328828 iat_curr=89 iat_estimate=1790 ato_us=5370
+          iperf3-99833   [000] ..s2. 37737.214011: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4116328828 delays_us=5370
+          iperf3-99833   [000] ..s2. 37737.214012: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4116328828 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37737.214013: tcp_v4_rcv: EXIT: skb=000000005e052606
+          iperf3-99833   [000] ..s.. 37737.381288: tcp_v4_rcv: ENTRY: skb=000000004350fea7 seq_num=4116651732
+          iperf3-99833   [000] ..s1. 37737.381291: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4116653180 | UPDATE now_us=37737292502 seq=4116651732 end_seq=4116653180 iat_curr=73 iat_estimate=1793 ato_us=5379
+          iperf3-99833   [000] ..s1. 37737.381293: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4116653180 delays_us=5379
+          iperf3-99833   [000] ..s1. 37737.381294: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4116653180 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37737.381294: tcp_v4_rcv: EXIT: skb=000000004350fea7
+          iperf3-99833   [000] ..s.. 37737.395198: tcp_v4_rcv: ENTRY: skb=000000000eeed0c6 seq_num=4116680692
+          iperf3-99833   [000] ..s1. 37737.395200: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4116682140 | UPDATE now_us=37737306411 seq=4116680692 end_seq=4116682140 iat_curr=89 iat_estimate=1825 ato_us=5475
+          iperf3-99833   [000] ..s1. 37737.395201: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4116682140 delays_us=5475
+          iperf3-99833   [000] ..s1. 37737.395202: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4116682140 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37737.395203: tcp_v4_rcv: EXIT: skb=000000000eeed0c6
+          iperf3-99833   [000] ..s.. 37737.628689: tcp_v4_rcv: ENTRY: skb=00000000e79f5916 seq_num=4117177356
+          iperf3-99833   [000] ..s1. 37737.628692: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4117178804 | UPDATE now_us=37737539902 seq=4117177356 end_seq=4117178804 iat_curr=93 iat_estimate=2276 ato_us=6828
+          iperf3-99833   [000] ..s1. 37737.628693: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4117178804 delays_us=6828
+          iperf3-99833   [000] ..s1. 37737.628694: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4117178804 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37737.628694: tcp_v4_rcv: EXIT: skb=00000000e79f5916
+          iperf3-99833   [000] ..s.. 37737.680746: tcp_v4_rcv: ENTRY: skb=00000000044480a7 seq_num=4117281612
+          iperf3-99833   [000] ..s.. 37737.680747: tcp_v4_rcv: EXIT: skb=00000000044480a7
+          iperf3-99833   [000] ..... 37737.680758: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4117283060 | UPDATE now_us=37737591968 seq=4117281612 end_seq=4117283060 iat_curr=93 iat_estimate=2276 ato_us=6828
+          iperf3-99833   [000] ..... 37737.680759: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4117283060 delays_us=6828
+          iperf3-99833   [000] ..... 37737.680760: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4117283060 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37738.127071: tcp_v4_rcv: ENTRY: skb=0000000038577f25 seq_num=4118202540
+          iperf3-99833   [000] ..s2. 37738.127075: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4118203988 | UPDATE now_us=37738038285 seq=4118202540 end_seq=4118203988 iat_curr=69 iat_estimate=2052 ato_us=6156
+          iperf3-99833   [000] ..s2. 37738.127076: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4118203988 delays_us=6156
+          iperf3-99833   [000] ..s2. 37738.127077: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4118203988 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37738.127078: tcp_v4_rcv: EXIT: skb=0000000038577f25
+          iperf3-99833   [000] ..s.. 37738.155051: tcp_v4_rcv: ENTRY: skb=00000000a069f821 seq_num=4118266252
+          iperf3-99833   [000] ..s1. 37738.155054: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4118267700 | UPDATE now_us=37738066264 seq=4118266252 end_seq=4118267700 iat_curr=87 iat_estimate=2052 ato_us=6156
+          iperf3-99833   [000] ..s1. 37738.155055: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4118267700 delays_us=6156
+          iperf3-99833   [000] ..s1. 37738.155056: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4118267700 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37738.155057: tcp_v4_rcv: EXIT: skb=00000000a069f821
+          iperf3-99833   [000] ..s.. 37738.245856: tcp_v4_rcv: ENTRY: skb=00000000baeab282 seq_num=4118440012
+          iperf3-99833   [000] ..s1. 37738.245859: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4118441460 | UPDATE now_us=37738157069 seq=4118440012 end_seq=4118441460 iat_curr=99 iat_estimate=2236 ato_us=6708
+          iperf3-99833   [000] ..s1. 37738.245860: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4118441460 delays_us=6708
+          iperf3-99833   [000] ..s1. 37738.245861: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4118441460 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37738.245861: tcp_v4_rcv: EXIT: skb=00000000baeab282
+          iperf3-99833   [001] ..... 37739.167927: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4120322412 | UPDATE now_us=37739079137 seq=4120320964 end_seq=4120322412 iat_curr=72 iat_estimate=1969 ato_us=5907
+          iperf3-99833   [001] ..... 37739.167929: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4120322412 delays_us=5907
+          iperf3-99833   [001] ..... 37739.167931: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4120322412 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37739.724582: tcp_v4_rcv: ENTRY: skb=00000000766eceec seq_num=4121448956
+          iperf3-99833   [000] ..s.. 37739.724583: tcp_v4_rcv: EXIT: skb=00000000766eceec
+          iperf3-99833   [000] ..... 37739.724593: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4121450404 | UPDATE now_us=37739635803 seq=4121448956 end_seq=4121450404 iat_curr=90 iat_estimate=1881 ato_us=5643
+          iperf3-99833   [000] ..... 37739.724593: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4121450404 delays_us=5643
+          iperf3-99833   [000] ..... 37739.724594: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4121450404 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37740.060520: tcp_v4_rcv: ENTRY: skb=00000000a03c01b0 seq_num=4122167164
+          iperf3-99833   [000] ..s.. 37740.060521: tcp_v4_rcv: EXIT: skb=00000000a03c01b0
+          iperf3-99833   [000] ..... 37740.060532: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4122168612 | UPDATE now_us=37739971742 seq=4122167164 end_seq=4122168612 iat_curr=91 iat_estimate=2118 ato_us=6354
+          iperf3-99833   [000] ..... 37740.060533: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4122168612 delays_us=6354
+          iperf3-99833   [000] ..... 37740.060534: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4122168612 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37740.252026: tcp_v4_rcv: ENTRY: skb=000000005d254081 seq_num=4122547988
+          iperf3-99833   [000] ..s1. 37740.252030: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4122549436 | UPDATE now_us=37740163240 seq=4122547988 end_seq=4122549436 iat_curr=71 iat_estimate=2088 ato_us=6264
+          iperf3-99833   [000] ..s1. 37740.252031: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4122549436 delays_us=6264
+          iperf3-99833   [000] ..s1. 37740.252032: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4122549436 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37740.252032: tcp_v4_rcv: EXIT: skb=000000005d254081
+          iperf3-99833   [000] ..s1. 37740.272988: tcp_v4_rcv: ENTRY: skb=000000009e01bd2e seq_num=4122591428
+          iperf3-99833   [000] ..s2. 37740.272991: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4122592876 | UPDATE now_us=37740184201 seq=4122591428 end_seq=4122592876 iat_curr=99 iat_estimate=2088 ato_us=6264
+          iperf3-99833   [000] ..s2. 37740.272992: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4122592876 delays_us=6264
+          iperf3-99833   [000] ..s2. 37740.272993: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4122592876 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37740.272994: tcp_v4_rcv: EXIT: skb=000000009e01bd2e
+          iperf3-99833   [000] ..s.. 37740.401544: tcp_v4_rcv: ENTRY: skb=00000000ef68a542 seq_num=4122867996
+          iperf3-99833   [000] ..s1. 37740.401547: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4122869444 | UPDATE now_us=37740312757 seq=4122867996 end_seq=4122869444 iat_curr=89 iat_estimate=1978 ato_us=5934
+          iperf3-99833   [000] ..s1. 37740.401548: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4122869444 delays_us=5934
+          iperf3-99833   [000] ..s1. 37740.401549: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4122869444 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37740.401549: tcp_v4_rcv: EXIT: skb=00000000ef68a542
+          iperf3-99833   [000] ..s1. 37740.524036: tcp_v4_rcv: ENTRY: skb=00000000182b36bf seq_num=4123135876
+          iperf3-99833   [000] ..s2. 37740.524039: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4123137324 | UPDATE now_us=37740435250 seq=4123135876 end_seq=4123137324 iat_curr=72 iat_estimate=2142 ato_us=6426
+          iperf3-99833   [000] ..s2. 37740.524041: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4123137324 delays_us=6426
+          iperf3-99833   [000] ..s2. 37740.524042: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4123137324 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37740.524042: tcp_v4_rcv: EXIT: skb=00000000182b36bf
+          iperf3-99833   [000] ..s.. 37740.633070: tcp_v4_rcv: ENTRY: skb=00000000f2922244 seq_num=4123357420
+          iperf3-99833   [000] ..s1. 37740.633073: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4123358868 | UPDATE now_us=37740544284 seq=4123357420 end_seq=4123358868 iat_curr=73 iat_estimate=2283 ato_us=6849
+          iperf3-99833   [000] ..s1. 37740.633075: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4123358868 delays_us=6849
+          iperf3-99833   [000] ..s1. 37740.633076: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4123358868 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37740.633076: tcp_v4_rcv: EXIT: skb=00000000f2922244
+          iperf3-99833   [000] ..s.. 37740.661034: tcp_v4_rcv: ENTRY: skb=00000000db3757c2 seq_num=4123415340
+          iperf3-99833   [000] ..s1. 37740.661037: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4123416788 | UPDATE now_us=37740572248 seq=4123415340 end_seq=4123416788 iat_curr=75 iat_estimate=2288 ato_us=6864
+          iperf3-99833   [000] ..s1. 37740.661039: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4123416788 delays_us=6864
+          iperf3-99833   [000] ..s1. 37740.661039: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4123416788 | ACK_DELAYED
+          iperf3-99833   [000] ..s.. 37740.661040: tcp_v4_rcv: EXIT: skb=00000000db3757c2
+          iperf3-99833   [001] ..... 37743.013056: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4129302908 | UPDATE now_us=37742924265 seq=4129300012 end_seq=4129302908 iat_curr=58 iat_estimate=514 ato_us=1542
+          iperf3-99833   [001] ..... 37743.013058: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4129302908 delays_us=1542
+          iperf3-99833   [001] ..... 37743.013059: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4129302908 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37743.649596: tcp_v4_rcv: ENTRY: skb=00000000a68661e0 seq_num=4130978244
+          iperf3-99833   [000] ..s2. 37743.649599: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4130979692 | UPDATE now_us=37743560810 seq=4130978244 end_seq=4130979692 iat_curr=77 iat_estimate=500 ato_us=1500
+          iperf3-99833   [000] ..s2. 37743.649600: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4130979692 delays_us=1500
+          iperf3-99833   [000] ..s2. 37743.649601: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4130979692 | ACK_DELAYED
+          iperf3-99833   [000] ..s1. 37743.649602: tcp_v4_rcv: EXIT: skb=00000000a68661e0
+          iperf3-99833   [000] ..s.. 37744.659530: tcp_v4_rcv: ENTRY: skb=000000008922a502 seq_num=4133625188
+          iperf3-99833   [000] ..s.. 37744.659532: tcp_v4_rcv: EXIT: skb=000000008922a502
+          iperf3-99833   [000] ..... 37744.659547: tcp_event_data_recv: TCP_AAD: RECV sk=00000000d0cccb1f rcv_next=4133626636 | UPDATE now_us=37744570758 seq=4133625188 end_seq=4133626636 iat_curr=103 iat_estimate=536 ato_us=1608
+          iperf3-99833   [000] ..... 37744.659548: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=00000000d0cccb1f rcv_next=4133626636 delays_us=1608
+          iperf3-99833   [000] ..... 37744.659549: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=00000000d0cccb1f rcv_next=4133626636 | ACK_DELAYED
+          iperf3-76627   [002] ..... 37744.868423: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000728ece02 rcv_next=2598564517 | RBUF_PUSH2
+          iperf3-76627   [002] ..... 37744.868424: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000728ece02 rcv_next=2598564517
+          iperf3-76627   [002] ..... 37744.868428: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000008db2ef0d ack_num=2598564517

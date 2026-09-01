@@ -1,0 +1,321 @@
+          iperf3-82729   [002] ..... 92113.256108: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d87a08cd rcv_next=18812208 | RBUF_PUSH2
+          iperf3-82729   [002] ..... 92113.256112: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d87a08cd rcv_next=18812208
+          iperf3-82729   [002] ..... 92113.256118: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000098e10e03 ack_num=18812208
+          iperf3-88655   [003] ..... 92113.413710: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3326322465 | UPDATE now_us=92114064958 seq=3326321017 end_seq=3326322465 iat_curr=191 iat_estimate=0 ato_us=40000
+          iperf3-88655   [003] ..... 92113.413719: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3326322465 | ACK_DEFERRED
+          iperf3-88655   [003] b..1. 92113.413723: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3326322465
+          iperf3-88655   [003] b..1. 92113.413729: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000dc791bb0 ack_num=3326322465
+          iperf3-88655   [003] ..... 92113.495107: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3326374593 | UPDATE now_us=92114146356 seq=3326373145 end_seq=3326374593 iat_curr=148 iat_estimate=0 ato_us=40000
+          iperf3-88655   [003] ..... 92113.495113: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3326374593 delays_us=40000
+          iperf3-88655   [003] ..... 92113.495122: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3326374593 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92116.436914: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3328633473 | UPDATE now_us=92117088187 seq=3328624785 end_seq=3328633473 iat_curr=129 iat_estimate=2454 ato_us=7362
+          iperf3-88655   [002] ..... 92116.436921: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3328633473 delays_us=7362
+          iperf3-88655   [002] ..... 92116.436927: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3328633473 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92116.450143: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3328656641 | UPDATE now_us=92117101418 seq=3328647953 end_seq=3328656641 iat_curr=134 iat_estimate=2426 ato_us=7278
+          iperf3-88655   [002] ..... 92116.450150: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3328656641 delays_us=7278
+          iperf3-88655   [002] ..... 92116.450156: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3328656641 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92117.319533: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3328982441
+          iperf3-88655   [002] ..... 92117.319540: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000098e10e03 ack_num=3328982441
+          iperf3-88655   [002] ..... 92117.319597: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3328982441 | ACK_COMP_LIMIT
+          iperf3-88655   [002] ..... 92117.528271: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3329049049
+          iperf3-88655   [002] ..... 92117.528280: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000060c455ec ack_num=3329049049
+          iperf3-88655   [002] ..... 92117.528331: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3329049049 | ACK_COMP_LIMIT
+          iperf3-88655   [002] ..... 92118.535825: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3329440009 | UPDATE now_us=92119187116 seq=3329435665 end_seq=3329440009 iat_curr=142 iat_estimate=1589 ato_us=4767
+          iperf3-88655   [002] ..... 92118.535832: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3329440009 delays_us=4767
+          iperf3-88655   [002] ..... 92118.535838: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3329440009 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92118.943141: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3329534129 | UPDATE now_us=92119594435 seq=3329528337 end_seq=3329534129 iat_curr=29 iat_estimate=1776 ato_us=5328
+          iperf3-88655   [002] ..... 92118.943147: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3329534129 delays_us=5328
+          iperf3-88655   [002] ..... 92118.943153: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3329534129 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92119.549411: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3329683273 | UPDATE now_us=92120200712 seq=3329681825 end_seq=3329683273 iat_curr=30 iat_estimate=1654 ato_us=4962
+          iperf3-88655   [002] ..... 92119.549415: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3329683273 delays_us=4962
+          iperf3-88655   [002] ..... 92119.549420: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3329683273 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92131.369678: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3336801641 | UPDATE now_us=92132021070 seq=3336794401 end_seq=3336801641 iat_curr=175 iat_estimate=2596 ato_us=7788
+          iperf3-88655   [001] ..... 92131.369685: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3336801641 delays_us=7788
+          iperf3-88655   [001] ..... 92131.369691: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3336801641 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92131.671164: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3336984089
+          iperf3-88655   [001] ..... 92131.671171: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000a930af71 ack_num=3336984089
+          iperf3-88655   [001] ..... 92131.671234: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3336984089 | ACK_COMP_LIMIT
+          iperf3-88655   [001] ..... 92132.159069: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3337118753
+          iperf3-88655   [001] ..... 92132.159075: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000002f3025c0 ack_num=3337118753
+          iperf3-88655   [001] ..... 92132.159126: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3337118753 | ACK_COMP_LIMIT
+          iperf3-88655   [001] ..... 92132.553786: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3337339297 | UPDATE now_us=92133205186 seq=3337330609 end_seq=3337339297 iat_curr=71 iat_estimate=2314 ato_us=6942
+          iperf3-88655   [001] ..... 92132.553793: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3337339297 | ACK_DEFERRED
+          iperf3-88655   [001] b..1. 92132.553797: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3337339297
+          iperf3-88655   [001] b..1. 92132.553803: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000fe9c6d1c ack_num=3337339297
+          iperf3-88655   [001] ..... 92132.947383: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3337465273 | UPDATE now_us=92133598787 seq=3337456585 end_seq=3337465273 iat_curr=60 iat_estimate=2314 ato_us=6942
+          iperf3-88655   [001] ..... 92132.947391: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3337465273 | ACK_DEFERRED
+          iperf3-88655   [001] b..1. 92132.947394: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3337465273
+          iperf3-88655   [001] b..1. 92132.947401: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000001bfbf0a4 ack_num=3337465273
+          iperf3-88655   [001] ..... 92138.177073: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3339538809 | UPDATE now_us=92138828519 seq=3339537361 end_seq=3339538809 iat_curr=189 iat_estimate=2442 ato_us=7326
+          iperf3-88655   [001] ..... 92138.177080: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3339538809 delays_us=7326
+          iperf3-88655   [001] ..... 92138.177085: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3339538809 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92138.970702: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3340068777 | UPDATE now_us=92139622155 seq=3340067329 end_seq=3340068777 iat_curr=160 iat_estimate=2462 ato_us=7386
+          iperf3-88655   [001] ..... 92138.970708: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3340068777 delays_us=7386
+          iperf3-88655   [001] ..... 92138.970714: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3340068777 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92139.915523: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3340694313 | UPDATE now_us=92140566983 seq=3340692865 end_seq=3340694313 iat_curr=163 iat_estimate=2296 ato_us=6888
+          iperf3-88655   [001] ..... 92139.915529: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3340694313 delays_us=6888
+          iperf3-88655   [001] ..... 92139.915580: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3340694313 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92140.650301: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3341180841 | UPDATE now_us=92141301767 seq=3341179393 end_seq=3341180841 iat_curr=160 iat_estimate=2243 ato_us=6729
+          iperf3-88655   [001] ..... 92140.650307: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3341180841 delays_us=6729
+          iperf3-88655   [001] ..... 92140.650313: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3341180841 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92140.912611: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3341354601 | UPDATE now_us=92141564079 seq=3341353153 end_seq=3341354601 iat_curr=199 iat_estimate=2399 ato_us=7197
+          iperf3-88655   [001] ..... 92140.912617: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3341354601 delays_us=7197
+          iperf3-88655   [001] ..... 92140.912623: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3341354601 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92141.122641: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3341493609 | UPDATE now_us=92141774110 seq=3341492161 end_seq=3341493609 iat_curr=200 iat_estimate=2457 ato_us=7371
+          iperf3-88655   [001] ..... 92141.122647: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3341493609 delays_us=7371
+          iperf3-88655   [001] ..... 92141.122655: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3341493609 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92141.352693: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3341641305 | UPDATE now_us=92142004164 seq=3341639857 end_seq=3341641305 iat_curr=137 iat_estimate=2436 ato_us=7308
+          iperf3-88655   [001] ..... 92141.352700: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3341641305 delays_us=7308
+          iperf3-88655   [001] ..... 92141.352708: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3341641305 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92141.804968: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3341945385 | UPDATE now_us=92142456443 seq=3341943937 end_seq=3341945385 iat_curr=162 iat_estimate=2457 ato_us=7371
+          iperf3-88655   [001] ..... 92141.804974: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3341945385 delays_us=7371
+          iperf3-88655   [001] ..... 92141.804979: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3341945385 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92143.057677: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3342779433 | UPDATE now_us=92143709162 seq=3342777985 end_seq=3342779433 iat_curr=162 iat_estimate=2396 ato_us=7188
+          iperf3-88655   [003] ..... 92143.057683: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3342779433 delays_us=7188
+          iperf3-88655   [003] ..... 92143.057689: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3342779433 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92143.215081: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3342883689 | UPDATE now_us=92143866567 seq=3342882241 end_seq=3342883689 iat_curr=157 iat_estimate=2456 ato_us=7368
+          iperf3-88655   [003] ..... 92143.215087: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3342883689 delays_us=7368
+          iperf3-88655   [003] ..... 92143.215093: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3342883689 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92144.360957: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3343639545 | UPDATE now_us=92145012453 seq=3343638097 end_seq=3343639545 iat_curr=148 iat_estimate=2449 ato_us=7347
+          iperf3-88655   [003] ..... 92144.360963: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3343639545 delays_us=7347
+          iperf3-88655   [003] ..... 92144.360969: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3343639545 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92145.402307: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3344314313 | UPDATE now_us=92146053811 seq=3344312865 end_seq=3344314313 iat_curr=117 iat_estimate=2418 ato_us=7254
+          iperf3-88655   [003] ..... 92145.402313: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3344314313 delays_us=7254
+          iperf3-88655   [003] ..... 92145.402319: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3344314313 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92147.307433: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3345519049 | UPDATE now_us=92147958958 seq=3345510361 end_seq=3345519049 iat_curr=17 iat_estimate=1592 ato_us=4776
+          iperf3-88655   [002] ..... 92147.307434: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3345519049 delays_us=4776
+          iperf3-88655   [002] ..... 92147.307435: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3345519049 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92147.307437: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3345520497 | NOISE now_us=92147958963 seq=3345519049 end_seq=3345520497 iat_curr=5
+          iperf3-88655   [002] ..... 92147.307438: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3345520497 delays_us=4776
+          iperf3-88655   [002] ..... 92147.307438: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3345520497 | ACK_DELAYED
+          iperf3-88655   [002] ..... 92147.307440: tcp_send_ack: TCP_AAD: THRESHOLD sk=000000004b6c6a1c rcv_next=3345520497
+          iperf3-88655   [002] ..... 92147.307442: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000060c455ec ack_num=3345520497
+          iperf3-88655   [002] ..... 92147.307463: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3345520497 | ACK_COMP_LIMIT
+          iperf3-88655   [003] ..... 92148.532706: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3345959241
+          iperf3-88655   [003] ..... 92148.532713: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000001d2cc8a7 ack_num=3345959241
+          iperf3-88655   [003] ..... 92148.532772: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3345959241 | ACK_COMP_LIMIT
+          iperf3-88655   [003] ..... 92148.931292: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3346038881 | ACK_DEFERRED
+          iperf3-88655   [003] b..1. 92148.931296: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3346038881
+          iperf3-88655   [003] b..1. 92148.931303: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000f97524d7 ack_num=3346038881
+          iperf3-88655   [003] ..... 92153.137998: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3347094473 | UPDATE now_us=92153789564 seq=3347093025 end_seq=3347094473 iat_curr=162 iat_estimate=2480 ato_us=7440
+          iperf3-88655   [003] ..... 92153.138004: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3347094473 delays_us=7440
+          iperf3-88655   [003] ..... 92153.138010: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3347094473 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92153.552049: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3347410137 | UPDATE now_us=92154203618 seq=3347408689 end_seq=3347410137 iat_curr=148 iat_estimate=2618 ato_us=7854
+          iperf3-88655   [003] ..... 92153.552055: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3347410137 delays_us=7854
+          iperf3-88655   [003] ..... 92153.552061: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3347410137 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92156.170228: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3349393897 | UPDATE now_us=92156821819 seq=3349392449 end_seq=3349393897 iat_curr=186 iat_estimate=2525 ato_us=7575
+          iperf3-88655   [003] ..... 92156.170236: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3349393897 delays_us=7575
+          iperf3-88655   [003] ..... 92156.170242: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3349393897 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92156.737538: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3349828297 | UPDATE now_us=92157389133 seq=3349826849 end_seq=3349828297 iat_curr=148 iat_estimate=2693 ato_us=8079
+          iperf3-88655   [003] ..... 92156.737544: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3349828297 delays_us=8079
+          iperf3-88655   [003] ..... 92156.737550: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3349828297 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92156.915290: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3349961513 | UPDATE now_us=92157566886 seq=3349960065 end_seq=3349961513 iat_curr=147 iat_estimate=2590 ato_us=7770
+          iperf3-88655   [003] ..... 92156.915296: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3349961513 delays_us=7770
+          iperf3-88655   [003] ..... 92156.915301: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3349961513 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92158.378886: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3351070681 | UPDATE now_us=92159030495 seq=3351069233 end_seq=3351070681 iat_curr=152 iat_estimate=2602 ato_us=7806
+          iperf3-88655   [003] ..... 92158.378892: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3351070681 delays_us=7806
+          iperf3-88655   [003] ..... 92158.378898: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3351070681 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92160.443798: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3352625833 | UPDATE now_us=92161095423 seq=3352624385 end_seq=3352625833 iat_curr=120 iat_estimate=2628 ato_us=7884
+          iperf3-88655   [001] ..... 92160.443804: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3352625833 delays_us=7884
+          iperf3-88655   [001] ..... 92160.443809: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3352625833 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92161.182629: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3353177521 | UPDATE now_us=92161834260 seq=3353170281 end_seq=3353177521 iat_curr=122 iat_estimate=84 ato_us=252
+          iperf3-88655   [001] ..... 92161.182636: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3353177521 delays_us=252
+          iperf3-88655   [001] ..... 92161.182643: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3353177521 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92161.266223: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3353242681 | UPDATE now_us=92161917853 seq=3353241233 end_seq=3353242681 iat_curr=106 iat_estimate=103 ato_us=309
+          iperf3-88655   [001] ..... 92161.266231: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3353242681 delays_us=309
+          iperf3-88655   [001] ..... 92161.266239: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3353242681 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92161.694784: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3353335353 | UPDATE now_us=92162346417 seq=3353333905 end_seq=3353335353 iat_curr=56 iat_estimate=114 ato_us=342
+          iperf3-88655   [001] ..... 92161.694789: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3353335353 | ACK_DEFERRED
+          iperf3-88655   [001] ..... 92161.694797: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3353335353 | ACK_DEFERRED
+          iperf3-88655   [001] b..1. 92161.694799: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3353335353
+          iperf3-88655   [001] b..1. 92161.694806: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000004a6f94c7 ack_num=3353335353
+          iperf3-88655   [001] ..... 92162.975055: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3353723417
+          iperf3-88655   [001] ..... 92162.975062: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000088879500 ack_num=3353723417
+          iperf3-88655   [001] ..... 92162.975126: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3353723417 | ACK_COMP_LIMIT
+          iperf3-88655   [001] ..... 92162.975134: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3353723417
+          iperf3-88655   [001] ..... 92162.975138: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000c0d3cbdd ack_num=3353723417
+          iperf3-88655   [001] ..... 92162.975159: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3353723417 | ACK_COMP_LIMIT
+          iperf3-88655   [001] ..... 92163.765119: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3354014465 | UPDATE now_us=92164416770 seq=3354007225 end_seq=3354014465 iat_curr=104 iat_estimate=21984 ato_us=65952
+          iperf3-88655   [001] ..... 92163.765125: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3354014465 delays_us=40000
+          iperf3-88655   [001] ..... 92163.765131: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3354014465 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92164.210672: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3354097001
+          iperf3-88655   [001] ..... 92164.210678: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e4dbb1c7 ack_num=3354097001
+          iperf3-88655   [001] ..... 92164.210735: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3354097001 | ACK_COMP_LIMIT
+          iperf3-88655   [001] ..... 92164.210744: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3354097001
+          iperf3-88655   [001] ..... 92164.210749: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000003535a95 ack_num=3354097001
+          iperf3-88655   [001] ..... 92164.210768: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3354097001 | ACK_COMP_LIMIT
+          iperf3-88655   [001] ..... 92167.244499: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3354526609 | UPDATE now_us=92167896179 seq=3354525161 end_seq=3354526609 iat_curr=139 iat_estimate=1093 ato_us=3279
+          iperf3-88655   [001] ..... 92167.244504: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3354526609 delays_us=3279
+          iperf3-88655   [001] ..... 92167.244509: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3354526609 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92174.081632: tcp_v4_rcv: ENTRY: skb=00000000be1d7518 seq_num=3359022649
+          iperf3-88655   [000] ..s.. 92174.081636: tcp_v4_rcv: EXIT: skb=00000000be1d7518
+          iperf3-88655   [000] ..... 92174.081669: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3359024097 | UPDATE now_us=92174733407 seq=3359022649 end_seq=3359024097 iat_curr=227 iat_estimate=2054 ato_us=6162
+          iperf3-88655   [000] ..... 92174.081675: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3359024097 delays_us=6162
+          iperf3-88655   [000] ..... 92174.081680: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3359024097 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92174.540749: tcp_v4_rcv: ENTRY: skb=00000000d6e2e8d2 seq_num=3359326729
+          iperf3-88655   [000] ..s1. 92174.540757: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3359328177 | UPDATE now_us=92175192498 seq=3359326729 end_seq=3359328177 iat_curr=222 iat_estimate=2056 ato_us=6168
+          iperf3-88655   [000] ..s1. 92174.540760: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3359328177 delays_us=6168
+          iperf3-88655   [000] ..s1. 92174.540765: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3359328177 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92174.540766: tcp_v4_rcv: EXIT: skb=00000000d6e2e8d2
+          iperf3-88655   [000] ..s.. 92174.553894: tcp_v4_rcv: ENTRY: skb=000000006a9cdbfd seq_num=3359335417
+          iperf3-88655   [000] ..s.. 92174.553898: tcp_v4_rcv: EXIT: skb=000000006a9cdbfd
+          iperf3-88655   [000] ..... 92174.553922: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3359336865 | UPDATE now_us=92175205663 seq=3359335417 end_seq=3359336865 iat_curr=250 iat_estimate=2060 ato_us=6180
+          iperf3-88655   [000] ..... 92174.553926: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3359336865 delays_us=6180
+          iperf3-88655   [000] ..... 92174.553930: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3359336865 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92174.776946: tcp_v4_rcv: ENTRY: skb=00000000643515ac seq_num=3359483113
+          iperf3-88655   [000] ..s1. 92174.776954: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3359484561 | UPDATE now_us=92175428698 seq=3359483113 end_seq=3359484561 iat_curr=246 iat_estimate=2051 ato_us=6153
+          iperf3-88655   [000] ..s1. 92174.776958: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3359484561 delays_us=6153
+          iperf3-88655   [000] ..s1. 92174.776962: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3359484561 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92174.776964: tcp_v4_rcv: EXIT: skb=00000000643515ac
+          iperf3-88655   [000] ..s.. 92174.973950: tcp_v4_rcv: ENTRY: skb=00000000976bcd2b seq_num=3359613433
+          iperf3-88655   [000] ..s1. 92174.973959: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3359614881 | UPDATE now_us=92175625704 seq=3359613433 end_seq=3359614881 iat_curr=222 iat_estimate=2056 ato_us=6168
+          iperf3-88655   [000] ..s1. 92174.973962: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3359614881 delays_us=6168
+          iperf3-88655   [000] ..s1. 92174.973967: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3359614881 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92174.973968: tcp_v4_rcv: EXIT: skb=00000000976bcd2b
+          iperf3-88655   [001] ..... 92175.448565: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3359911721 | UPDATE now_us=92176100310 seq=3359910273 end_seq=3359911721 iat_curr=138 iat_estimate=2030 ato_us=6090
+          iperf3-88655   [001] ..... 92175.448571: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3359911721 delays_us=6090
+          iperf3-88655   [001] ..... 92175.448577: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3359911721 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92175.735211: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3360091273 | UPDATE now_us=92176386958 seq=3360089825 end_seq=3360091273 iat_curr=112 iat_estimate=2039 ato_us=6117
+          iperf3-88655   [001] ..... 92175.735217: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3360091273 delays_us=6117
+          iperf3-88655   [001] ..... 92175.735223: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3360091273 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92176.024042: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3360302681 | UPDATE now_us=92176675792 seq=3360301233 end_seq=3360302681 iat_curr=117 iat_estimate=2280 ato_us=6840
+          iperf3-88655   [001] ..... 92176.024048: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3360302681 delays_us=6840
+          iperf3-88655   [001] ..... 92176.024054: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3360302681 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92176.122179: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3360385217 | UPDATE now_us=92176773929 seq=3360380873 end_seq=3360385217 iat_curr=169 iat_estimate=2458 ato_us=7374
+          iperf3-88655   [001] ..... 92176.122185: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3360385217 delays_us=7374
+          iperf3-88655   [001] ..... 92176.122191: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3360385217 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92176.897950: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3360816721 | ACK_DEFERRED
+          iperf3-88655   [001] ..... 92176.897957: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3360816721 | ACK_DEFERRED
+          iperf3-88655   [001] b..1. 92176.897960: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3360816721
+          iperf3-88655   [001] b..1. 92176.897967: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000003535a95 ack_num=3360816721
+          iperf3-88655   [001] ..... 92177.715018: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3361048401 | UPDATE now_us=92178366781 seq=3361039713 end_seq=3361048401 iat_curr=155 iat_estimate=1436 ato_us=4308
+          iperf3-88655   [001] ..... 92177.715026: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3361048401 delays_us=4308
+          iperf3-88655   [001] ..... 92177.715031: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3361048401 | ACK_DELAYED
+          iperf3-88655   [001] ..... 92177.715040: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3361052745 | UPDATE now_us=92178366807 seq=3361048401 end_seq=3361052745 iat_curr=26 iat_estimate=1436 ato_us=4308
+          iperf3-88655   [001] ..... 92177.715045: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3361052745 delays_us=4308
+          iperf3-88655   [001] ..... 92177.715048: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3361052745 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92179.359174: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3361741993 | UPDATE now_us=92180010949 seq=3361740545 end_seq=3361741993 iat_curr=66 iat_estimate=2159 ato_us=6477
+          iperf3-88655   [003] ..... 92179.359182: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3361741993 delays_us=6477
+          iperf3-88655   [003] ..... 92179.359189: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3361741993 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92179.775650: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3361860729 | UPDATE now_us=92180427431 seq=3361853489 end_seq=3361860729 iat_curr=107 iat_estimate=1996 ato_us=5988
+          iperf3-88655   [003] ..... 92179.775656: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3361860729 delays_us=5988
+          iperf3-88655   [003] ..... 92179.775661: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3361860729 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92180.150320: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3361943265 | UPDATE now_us=92180802103 seq=3361941817 end_seq=3361943265 iat_curr=26 iat_estimate=1555 ato_us=4665
+          iperf3-88655   [003] ..... 92180.150326: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3361943265 delays_us=4665
+          iperf3-88655   [003] ..... 92180.150332: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3361943265 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92180.555059: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3362041729 | UPDATE now_us=92181206845 seq=3362037385 end_seq=3362041729 iat_curr=39 iat_estimate=1338 ato_us=4014
+          iperf3-88655   [003] ..... 92180.555068: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3362041729 delays_us=4014
+          iperf3-88655   [003] ..... 92180.555074: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3362041729 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92182.318841: tcp_v4_rcv: ENTRY: skb=00000000614a55e6 seq_num=3362574593
+          iperf3-88655   [000] ..s1. 92182.318850: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3362576041 | UPDATE now_us=92182970654 seq=3362574593 end_seq=3362576041 iat_curr=165 iat_estimate=1752 ato_us=5256
+          iperf3-88655   [000] ..s1. 92182.318854: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3362576041 delays_us=5256
+          iperf3-88655   [000] ..s1. 92182.318858: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3362576041 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92182.318859: tcp_v4_rcv: EXIT: skb=00000000614a55e6
+          iperf3-88655   [000] ..s.. 92182.427818: tcp_v4_rcv: ENTRY: skb=00000000169a4b19 seq_num=3362652785
+          iperf3-88655   [000] ..s1. 92182.427825: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3362654233 | UPDATE now_us=92183079630 seq=3362652785 end_seq=3362654233 iat_curr=197 iat_estimate=2024 ato_us=6072
+          iperf3-88655   [000] ..s1. 92182.427828: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3362654233 delays_us=6072
+          iperf3-88655   [000] ..s1. 92182.427832: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3362654233 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92182.427833: tcp_v4_rcv: EXIT: skb=00000000169a4b19
+          iperf3-88655   [000] ..s.. 92182.621632: tcp_v4_rcv: ENTRY: skb=00000000424a4101 seq_num=3362791793
+          iperf3-88655   [000] ..s1. 92182.621639: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3362793241 | UPDATE now_us=92183273446 seq=3362791793 end_seq=3362793241 iat_curr=246 iat_estimate=2046 ato_us=6138
+          iperf3-88655   [000] ..s1. 92182.621642: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3362793241 delays_us=6138
+          iperf3-88655   [000] ..s1. 92182.621646: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3362793241 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92182.621648: tcp_v4_rcv: EXIT: skb=00000000424a4101
+          iperf3-88655   [000] ..s.. 92182.633814: tcp_v4_rcv: ENTRY: skb=000000003f7ad677 seq_num=3362800481
+          iperf3-88655   [000] ..s.. 92182.633818: tcp_v4_rcv: EXIT: skb=000000003f7ad677
+          iperf3-88655   [000] ..... 92182.633843: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3362801929 | UPDATE now_us=92183285649 seq=3362800481 end_seq=3362801929 iat_curr=274 iat_estimate=2046 ato_us=6138
+          iperf3-88655   [000] ..... 92182.633848: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3362801929 delays_us=6138
+          iperf3-88655   [000] ..... 92182.633853: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3362801929 | ACK_DELAYED
+          iperf3-88655   [000] ..s.. 92183.263851: tcp_v4_rcv: ENTRY: skb=00000000f54a527b seq_num=3363252257
+          iperf3-88655   [000] ..s.. 92183.263856: tcp_v4_rcv: EXIT: skb=00000000f54a527b
+          iperf3-88655   [000] ..... 92183.263887: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3363253705 | UPDATE now_us=92183915698 seq=3363252257 end_seq=3363253705 iat_curr=249 iat_estimate=2045 ato_us=6135
+          iperf3-88655   [000] ..... 92183.263891: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3363253705 delays_us=6135
+          iperf3-88655   [000] ..... 92183.263895: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3363253705 | ACK_DELAYED
+          iperf3-88655   [000] ..s1. 92183.312425: tcp_v4_rcv: ENTRY: skb=00000000cb2dda3b seq_num=3363287009
+          iperf3-88655   [000] ..s2. 92183.312434: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3363288457 | UPDATE now_us=92183964246 seq=3363287009 end_seq=3363288457 iat_curr=180 iat_estimate=2050 ato_us=6150
+          iperf3-88655   [000] ..s2. 92183.312439: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3363288457 delays_us=6150
+          iperf3-88655   [000] ..s2. 92183.312442: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3363288457 | ACK_DELAYED
+          iperf3-88655   [000] ..s1. 92183.312443: tcp_v4_rcv: EXIT: skb=00000000cb2dda3b
+          iperf3-88655   [000] ..s1. 92183.384831: tcp_v4_rcv: ENTRY: skb=000000009e6a8fe1 seq_num=3363339137
+          iperf3-88655   [000] ..s2. 92183.384840: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3363340585 | UPDATE now_us=92184036653 seq=3363339137 end_seq=3363340585 iat_curr=179 iat_estimate=2056 ato_us=6168
+          iperf3-88655   [000] ..s2. 92183.384846: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3363340585 delays_us=6168
+          iperf3-88655   [000] ..s2. 92183.384850: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3363340585 | ACK_DELAYED
+          iperf3-88655   [000] ..s1. 92183.384851: tcp_v4_rcv: EXIT: skb=000000009e6a8fe1
+          iperf3-88655   [001] ..... 92187.775794: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3366494329 | UPDATE now_us=92188427639 seq=3366492881 end_seq=3366494329 iat_curr=139 iat_estimate=2055 ato_us=6165
+          iperf3-88655   [001] ..... 92187.775799: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3366494329 delays_us=6165
+          iperf3-88655   [001] ..... 92187.775804: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3366494329 | ACK_DELAYED
+          iperf3-88655   [000] ..s1. 92190.449809: tcp_v4_rcv: ENTRY: skb=000000004830916b seq_num=3368404241
+          iperf3-88655   [000] ..s2. 92190.449818: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3368405689 | UPDATE now_us=92191101687 seq=3368404241 end_seq=3368405689 iat_curr=206 iat_estimate=2045 ato_us=6135
+          iperf3-88655   [000] ..s2. 92190.449824: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3368405689 delays_us=6135
+          iperf3-88655   [000] ..s2. 92190.449828: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3368405689 | ACK_DELAYED
+          iperf3-88655   [000] ..s1. 92190.449829: tcp_v4_rcv: EXIT: skb=000000004830916b
+          iperf3-88655   [000] ..s1. 92190.635554: tcp_v4_rcv: ENTRY: skb=000000009cf5d397 seq_num=3368527321
+          iperf3-88655   [000] ..s1. 92190.635558: tcp_v4_rcv: EXIT: skb=000000009cf5d397
+          iperf3-88655   [000] ..... 92190.635598: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3368533113 | UPDATE now_us=92191287468 seq=3368527321 end_seq=3368533113 iat_curr=149 iat_estimate=2040 ato_us=6120
+          iperf3-88655   [000] ..... 92190.635601: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3368533113 delays_us=6120
+          iperf3-88655   [000] ..... 92190.635604: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3368533113 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92191.155435: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3368961721 | UPDATE now_us=92191807306 seq=3368953033 end_seq=3368961721 iat_curr=130 iat_estimate=2651 ato_us=7953
+          iperf3-88655   [003] ..... 92191.155441: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3368961721 delays_us=7953
+          iperf3-88655   [003] ..... 92191.155447: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3368961721 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92191.667649: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3369310689 | UPDATE now_us=92192319524 seq=3369309241 end_seq=3369310689 iat_curr=128 iat_estimate=2486 ato_us=7458
+          iperf3-88655   [003] ..... 92191.667656: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3369310689 delays_us=7458
+          iperf3-88655   [003] ..... 92191.667662: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3369310689 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92191.882631: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3369449697
+          iperf3-88655   [003] ..... 92191.882639: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000041d6cbf5 ack_num=3369449697
+          iperf3-88655   [003] ..... 92191.882697: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3369449697 | ACK_COMP_LIMIT
+          iperf3-88655   [003] ..... 92192.125194: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3369642281 | UPDATE now_us=92192777071 seq=3369639385 end_seq=3369642281 iat_curr=92 iat_estimate=1812 ato_us=5436
+          iperf3-88655   [003] ..... 92192.125200: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3369642281 delays_us=5436
+          iperf3-88655   [003] ..... 92192.125206: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3369642281 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92192.553846: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3369750881 | ACK_DEFERRED
+          iperf3-88655   [003] b..1. 92192.553849: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3369750881
+          iperf3-88655   [003] b..1. 92192.553857: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000c6b836b3 ack_num=3369750881
+          iperf3-88655   [003] ..... 92192.933919: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3369900025 | UPDATE now_us=92193585804 seq=3369898577 end_seq=3369900025 iat_curr=40 iat_estimate=245 ato_us=735
+          iperf3-88655   [003] ..... 92192.933927: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3369900025 delays_us=735
+          iperf3-88655   [003] ..... 92192.933933: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3369900025 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92193.162021: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3369947809
+          iperf3-88655   [003] ..... 92193.162028: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=0000000071d0d5a2 ack_num=3369947809
+          iperf3-88655   [003] ..... 92193.162088: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3369947809 | ACK_COMP_LIMIT
+          iperf3-88655   [003] ..... 92193.974903: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3370338769 | UPDATE now_us=92194626796 seq=3370331529 end_seq=3370338769 iat_curr=46 iat_estimate=1883 ato_us=5649
+          iperf3-88655   [003] ..... 92193.974910: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3370338769 delays_us=5649
+          iperf3-88655   [003] ..... 92193.974916: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370338769 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92193.979251: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3370350353
+          iperf3-88655   [003] ..... 92193.979257: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000ffd2a377 ack_num=3370350353
+          iperf3-88655   [003] ..... 92193.979315: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370350353 | ACK_COMP_LIMIT
+          iperf3-88655   [003] ..... 92194.197660: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3370416961
+          iperf3-88655   [003] ..... 92194.197667: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000d886b89e ack_num=3370416961
+          iperf3-88655   [003] ..... 92194.197727: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370416961 | ACK_COMP_LIMIT
+          iperf3-88655   [003] ..... 92194.996327: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3370605201 | UPDATE now_us=92195648228 seq=3370597961 end_seq=3370605201 iat_curr=138 iat_estimate=1503 ato_us=4509
+          iperf3-88655   [003] ..... 92194.996333: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3370605201 delays_us=4509
+          iperf3-88655   [003] ..... 92194.996339: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370605201 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92194.996348: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3370608097 | UPDATE now_us=92195648253 seq=3370605201 end_seq=3370608097 iat_curr=25 iat_estimate=1503 ato_us=4509
+          iperf3-88655   [003] ..... 92194.996355: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3370608097 delays_us=4509
+          iperf3-88655   [003] ..... 92194.996358: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370608097 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92195.409907: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3370731177 | UPDATE now_us=92196061811 seq=3370729729 end_seq=3370731177 iat_curr=119 iat_estimate=1640 ato_us=4920
+          iperf3-88655   [003] ..... 92195.409913: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3370731177 delays_us=4920
+          iperf3-88655   [003] ..... 92195.409919: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370731177 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92195.612425: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3370768825
+          iperf3-88655   [003] ..... 92195.612431: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000007f6f60c3 ack_num=3370768825
+          iperf3-88655   [003] ..... 92195.612490: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370768825 | ACK_COMP_LIMIT
+          iperf3-88655   [003] ..... 92195.992519: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3370867289 | UPDATE now_us=92196644429 seq=3370860049 end_seq=3370867289 iat_curr=146 iat_estimate=1576 ato_us=4728
+          iperf3-88655   [003] ..... 92195.992526: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3370867289 delays_us=4728
+          iperf3-88655   [003] ..... 92195.992532: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370867289 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92195.992541: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3370870185 | UPDATE now_us=92196644453 seq=3370867289 end_seq=3370870185 iat_curr=24 iat_estimate=1576 ato_us=4728
+          iperf3-88655   [003] ..... 92195.992547: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3370870185 delays_us=4728
+          iperf3-88655   [003] ..... 92195.992550: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3370870185 | ACK_DELAYED
+          iperf3-88655   [003] ..... 92196.806161: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3371007745 | UPDATE now_us=92197458077 seq=3371004849 end_seq=3371007745 iat_curr=111 iat_estimate=454 ato_us=1362
+          iperf3-88655   [003] ..... 92196.806167: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3371007745 | ACK_DEFERRED
+          iperf3-88655   [003] b..1. 92196.806171: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3371007745
+          iperf3-88655   [003] b..1. 92196.806178: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000e669c626 ack_num=3371007745
+          iperf3-88655   [003] ..... 92196.833382: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3371022225 | ACK_DEFERRED
+          iperf3-88655   [003] ..... 92196.833393: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3371022225 | ACK_DEFERRED
+          iperf3-88655   [003] ..... 92196.833400: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3371022225 | ACK_DEFERRED
+          iperf3-88655   [003] b..1. 92196.833402: tcp_send_ack: TCP_AAD: TIMEOUT_OR_OTHER sk=000000004b6c6a1c rcv_next=3371022225
+          iperf3-88655   [003] b..1. 92196.833409: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=000000005929162d ack_num=3371022225
+          iperf3-88655   [003] ..... 92200.172836: tcp_event_data_recv: TCP_AAD: RECV sk=000000004b6c6a1c rcv_next=3373505545 | UPDATE now_us=92200824780 seq=3373504097 end_seq=3373505545 iat_curr=148 iat_estimate=2383 ato_us=7149
+          iperf3-88655   [003] ..... 92200.172841: tcp_send_delayed_ack: TCP_AAD_HOLD: Scheduled delay for sk=000000004b6c6a1c rcv_next=3373505545 delays_us=7149
+          iperf3-88655   [003] ..... 92200.172846: __tcp_ack_snd_check: TCP_AAD: ACK_CHK sk=000000004b6c6a1c rcv_next=3373505545 | ACK_DELAYED
+          iperf3-82729   [002] ..... 92203.326701: __tcp_cleanup_rbuf: TCP_AAD: RBUF_CLN sk=00000000d87a08cd rcv_next=18812546 | RBUF_PUSH2
+          iperf3-82729   [002] ..... 92203.326705: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d87a08cd rcv_next=18812546
+          iperf3-82729   [002] ..... 92203.326712: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000ddea4cb7 ack_num=18812546
+          iperf3-82729   [002] ..... 92203.332866: tcp_send_ack: TCP_AAD: THRESHOLD sk=00000000d87a08cd rcv_next=18812548
+          iperf3-82729   [002] ..... 92203.332872: __tcp_send_ack.part.0: GEN_ACK: __tcp_send_ack skb=00000000c42f04e0 ack_num=18812548
